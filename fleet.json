@@ -1,14 +1,68 @@
 {
+  "ES-LSA": {
+    "hex": "51109d",
+    "icao_type": "SF34",
+    "owner": "Airest",
+    "type": "340 A"
+  },
+  "ES-LSG": {
+    "hex": "5110c7",
+    "icao_type": "SF34",
+    "owner": "Airest",
+    "type": "340 A"
+  },
   "ES-NTC": {
     "hex": "511173",
-    "type": "ATR 72-500(F)",
     "icao_type": "AT75",
-    "owner": "NyxAir"
+    "owner": "NyxAir",
+    "type": "ATR 72-500(F)"
+  },
+  "SP-KPK": {
+    "hex": "48a5e9",
+    "icao_type": "SF34",
+    "owner": "SprintAir",
+    "type": "340 A"
+  },
+  "SP-KPR": {
+    "hex": "48a5f0",
+    "icao_type": "SF34",
+    "owner": "SprintAir",
+    "type": "340 A"
+  },
+  "UR-CQD": {
+    "hex": "5083a2",
+    "icao_type": "AN26",
+    "owner": "Vulkan Air",
+    "type": "An-26 B"
   },
   "UR-CQE": {
     "hex": "5083a3",
-    "type": "Antonov An-26B",
     "icao_type": "AN26",
-    "owner": "Vulkan Air"
+    "owner": "Vulkan Air",
+    "type": "Antonov An-26B"
+  },
+  "UR-CQV": {
+    "hex": "5083c0",
+    "icao_type": "AN26",
+    "owner": "Vulkan Air",
+    "type": "An-26 B"
+  },
+  "UR-CQZ": {
+    "hex": "5084c5",
+    "icao_type": "AN26",
+    "owner": "Vulkan Air",
+    "type": "AN-26"
+  },
+  "YL-RAG": {
+    "hex": "502c36",
+    "icao_type": "SF34",
+    "owner": "RAF Avia",
+    "type": "340 A"
+  },
+  "YL-RAL": {
+    "hex": "502d69",
+    "icao_type": "SF34",
+    "owner": "RAF Avia",
+    "type": "340 A"
   }
 }
