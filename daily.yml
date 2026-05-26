@@ -1,0 +1,62 @@
+name: Daily fleet check (Vulkan Air)
+
+on:
+  schedule:
+    # 05:30 UTC каждый день. К этому моменту UTC-сутки полностью закрыты,
+    # данные за вчера на зеркалах уже есть.
+    - cron: "30 5 * * *"
+  workflow_dispatch: {}  # ручной запуск из вкладки Actions
+
+permissions:
+  contents: write  # нужно, чтобы коммитить обновлённый fleet.json
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install airportsdata
+
+      - name: Запуск суточной сводки
+        run: |
+          python check_fleet.py | tee report.txt
+
+      - name: Сохранить отчёт как артефакт билда
+        uses: actions/upload-artifact@v4
+        with:
+          name: fleet-report-${{ github.run_id }}
+          path: report.txt
+          retention-days: 90
+
+      - name: Закоммитить обновлённый fleet.json (если изменился)
+        run: |
+          if ! git diff --quiet fleet.json; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add fleet.json
+            git commit -m "fleet.json: обновление кэша hex-кодов"
+            git push
+          else
+            echo "fleet.json не менялся, пропускаю."
+          fi
+
+      - name: Отправить в Telegram (опционально)
+        env:
+          TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+          TG_CHAT_ID:   ${{ secrets.TG_CHAT_ID }}
+        run: |
+          if [ -z "$TG_BOT_TOKEN" ] || [ -z "$TG_CHAT_ID" ]; then
+            echo "Telegram-секреты не настроены, пропускаю отправку."
+            exit 0
+          fi
+          # Длинные сообщения Telegram режет на 4096 символов — для парка из
+          # 4 An-26 такое влезает с большим запасом.
+          curl -sS -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
+            --data-urlencode "chat_id=${TG_CHAT_ID}" \
+            --data-urlencode "text=$(cat report.txt)" > /dev/null
+          echo "Отправлено в Telegram."
