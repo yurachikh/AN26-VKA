@@ -156,13 +156,13 @@ def parse_legs(trace):
 
 
 def ap_label(pt, airports):
-    ap, d = nearest_airport(pt["lat"], pt["lon"], airports)
+    ap, _ = nearest_airport(pt["lat"], pt["lon"], airports)
     if not ap:
         return f"({pt['lat']:.2f},{pt['lon']:.2f})"
-    s = f"{ap['icao']} {ap['name']}"
-    if d > 5:
-        s += f" [≈{d:.0f}км]"
-    return s
+    iata = ap.get("iata") or ""
+    icao = ap.get("icao") or ""
+    code = f"{iata}/{icao}" if iata else icao
+    return f"{code} {ap['name']}"
 
 # ─── отчёт ────────────────────────────────────────────────────────────────────
 
@@ -176,7 +176,6 @@ def report_aircraft(reg, info, date, airports):
     head = f"{reg}"
     if owner: head += f"  [{owner}]"
     if typ:   head += f"  {typ}"
-    if hex_id: head += f"  hex:{hex_id}"
     lines.append(head)
 
     if not hex_id:
