@@ -5,13 +5,14 @@
 
 Логика:
 - Тянет суточный трек с открытых зеркал ADS-B Exchange (adsb.lol → airplanes.live → adsb.fi).
-- Разбивает на отрезки (legs) по флагу «start of new leg».
-- Аэропорты вылета/посадки ищет ТОЛЬКО по точкам, помеченным как «на земле».
-- Если первый leg за день начинается в воздухе — подтягивает файл за предыдущий
-  день и склеивает («обрезок полуночи UTC»). Это исправляет рейсы, пересёкшие
-  00:00 UTC, которые иначе показывались как короткие куски с неверным
-  аэропортом вылета.
-- Если ни взлёт, ни посадка не попали в покрытие ADS-B — рейс помечается [частично].
+- Разбивает на отрезки (legs) по флагу «start of new leg» И по временным разрывам >1.5 часа
+  (это нужно для случаев когда борт стоит на земле без покрытия ADS-B —
+  readsb не успевает поставить флаг, и два рейса склеиваются в один).
+- Аэропорт ищется в три прохода: узкий радиус (10км) для ground-точек,
+  умеренный радиус (30км) для воздушных точек на краях leg-а, иначе показываем координаты.
+- Если первый leg за день начинается в воздухе, а последний leg за вчера —
+  тоже заканчивается в воздухе, и разрыв между ними <30 минут — склеиваем
+  (рейс пересёк полночь UTC).
 """
 
 import argparse
@@ -48,13 +49,16 @@ TRACE_SOURCES = [
     "https://globe.adsb.fi/globe_history/{yyyy}/{mm}/{dd}/traces/{last2}/trace_full_{hex}.json",
 ]
 
-GROUND_RADIUS_KM = 10  # допустимое расстояние от точки на земле до аэропорта в БД
+GROUND_RADIUS_KM = 10        # для точек, явно помеченных как ground
+AIR_EDGE_RADIUS_KM = 30      # для воздушных точек на краях leg-а
+LEG_GAP_SEC = 5400           # 1.5 часа без сигнала = новый рейс
+STITCH_GAP_SEC = 1800        # 30 минут разрыва — допустимо для склейки полуночи
 
 # ─── HTTP ─────────────────────────────────────────────────────────────────────
 
 def http_get_json(url, timeout=25):
     req = urllib.request.Request(url, headers={
-        "User-Agent": "fleet-monitor/3.0",
+        "User-Agent": "fleet-monitor/4.0",
         "Accept-Encoding": "gzip",
     })
     with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -108,7 +112,7 @@ def resolve_hex(reg, cache):
         cache[reg]["error"] = str(e)
         return cache[reg]
 
-# ─── треки и легs ─────────────────────────────────────────────────────────────
+# ─── треки ────────────────────────────────────────────────────────────────────
 
 def fetch_trace(hex_id, date):
     hex_id = hex_id.lower()
@@ -146,7 +150,8 @@ def nearest_airport(lat, lon, airports, max_km):
 
 
 def parse_legs(trace):
-    """Разбиваем точки трека на отрезки по флагу «start of new leg»."""
+    """Разбиваем точки на отрезки.
+    Новый leg = либо флаг readsb, либо разрыв во времени >LEG_GAP_SEC."""
     points = trace.get("trace", [])
     t0 = trace.get("timestamp", 0)
     legs, cur = [], []
@@ -162,7 +167,12 @@ def parse_legs(trace):
             "alt":       alt,
             "on_ground": (alt == "ground"),
         }
-        if (flags & 2) and cur:
+        force_new = bool(flags & 2)
+        if cur and not force_new:
+            gap = (pt["time"] - cur[-1]["time"]).total_seconds()
+            if gap > LEG_GAP_SEC:
+                force_new = True
+        if force_new and cur:
             legs.append(cur); cur = []
         cur.append(pt)
     if cur:
@@ -171,8 +181,9 @@ def parse_legs(trace):
 
 
 def stitch_with_previous_day(hex_id, date, legs_today):
-    """Если первый leg сегодня начинается в воздухе — рейс пересёк полночь UTC.
-    Подтягиваем файл за вчера и склеиваем последний leg оттуда с первым сегодня."""
+    """Склеить рейс, пересёкший полночь UTC.
+    Условия: первая точка сегодня в воздухе, последняя точка вчера в воздухе,
+    и разрыв между ними меньше STITCH_GAP_SEC."""
     if not legs_today or legs_today[0][0]["on_ground"]:
         return legs_today
 
@@ -185,38 +196,46 @@ def stitch_with_previous_day(hex_id, date, legs_today):
 
     last_prev = prev_legs[-1]
     if last_prev[-1]["on_ground"]:
-        # Предыдущий leg уже завершился посадкой накануне — значит это разные рейсы.
+        return legs_today
+
+    gap = (legs_today[0][0]["time"] - last_prev[-1]["time"]).total_seconds()
+    if gap > STITCH_GAP_SEC:
         return legs_today
 
     stitched = last_prev + legs_today[0]
     return [stitched] + legs_today[1:]
 
 
+def label_airport(ap):
+    iata = ap.get("iata") or ""
+    code = f"{iata}/{ap['icao']}" if iata else ap["icao"]
+    return f"{code} {ap['name']}"
+
+
 def label_point(pt, airports):
-    """Метка точки. Аэропорт — только если самолёт на земле и аэропорт в радиусе."""
+    """Метка точки: аэропорт если найден, иначе координаты."""
     if pt["on_ground"]:
         ap, _ = nearest_airport(pt["lat"], pt["lon"], airports, max_km=GROUND_RADIUS_KM)
         if ap:
-            iata = ap.get("iata") or ""
-            code = f"{iata}/{ap['icao']}" if iata else ap["icao"]
-            return f"{code} {ap['name']}"
+            return label_airport(ap)
         return f"(на земле: {pt['lat']:.2f},{pt['lon']:.2f})"
+    # Точка в воздухе — но если она первая/последняя в leg-е, аэропорт должен быть рядом
+    ap, _ = nearest_airport(pt["lat"], pt["lon"], airports, max_km=AIR_EDGE_RADIUS_KM)
+    if ap:
+        return label_airport(ap)
     return f"(в воздухе: {pt['lat']:.2f},{pt['lon']:.2f})"
 
 
 def takeoff_landing(leg):
-    """Первая ground-точка → взлёт, последняя ground-точка → посадка.
-    Если ground-точек нет — берём края leg-а (рейс не виден целиком)."""
-    takeoff = next((p for p in leg if p["on_ground"]), None)
-    landing = next((p for p in reversed(leg) if p["on_ground"]), None)
-    start = takeoff if takeoff else leg[0]
-    end   = landing if landing else leg[-1]
-    complete = bool(takeoff and landing and takeoff is not landing)
-    return start, end, complete
+    """Первая ground-точка → взлёт (или первая точка leg-а если ground нет).
+    Аналогично для посадки."""
+    takeoff = next((p for p in leg if p["on_ground"]), leg[0])
+    landing = next((p for p in reversed(leg) if p["on_ground"]), leg[-1])
+    return takeoff, landing
 
 
 def fmt_time(t, report_date):
-    """Если событие из вчерашних суток — добавляем пометку (-1д)."""
+    """Помечаем время отметкой (-1д), если событие из предыдущих суток."""
     if t.date() < report_date:
         return t.strftime("(-1д) %H:%M")
     return t.strftime("%H:%M")
@@ -228,7 +247,6 @@ def report_aircraft(reg, info, date, airports):
     hex_id = info.get("hex")
     typ   = info.get("type") or info.get("icao_type") or ""
     owner = info.get("owner") or ""
-
     head = reg
     if owner: head += f"  [{owner}]"
     if typ:   head += f"  {typ}"
@@ -251,13 +269,12 @@ def report_aircraft(reg, info, date, airports):
     legs = stitch_with_previous_day(hex_id, date, legs)
 
     for leg in legs:
-        start, end, complete = takeoff_landing(leg)
+        start, end = takeoff_landing(leg)
         dur = int((end["time"] - start["time"]).total_seconds() / 60)
-        marker = "" if complete else "  [частично]"
         lines.append(
             f"   {fmt_time(start['time'], date)}→{fmt_time(end['time'], date)}  "
             f"{label_point(start, airports)} → {label_point(end, airports)}  "
-            f"({dur}мин){marker}"
+            f"({dur}мин)"
         )
     return lines
 
