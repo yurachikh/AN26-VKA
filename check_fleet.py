@@ -120,7 +120,7 @@ def haversine_km(lat1, lon1, lat2, lon2):
     return 2 * R * asin(sqrt(a))
 
 
-def nearest_airport(lat, lon, airports, max_km=15):
+def nearest_airport(lat, lon, airports, max_km=75):
     best, best_d = None, float("inf")
     for ap in airports.values():
         try:
@@ -185,7 +185,7 @@ def report_aircraft(reg, info, date, airports):
 
     trace = fetch_trace(hex_id, date)
     if trace is None:
-        lines.append("   — нет данных ADS-B")
+        lines.append("   — полёты не выполнял")
         return lines
 
     legs = parse_legs(trace)
