@@ -3,16 +3,15 @@
 Мониторинг суточной активности парка по ADS-B.
 Группирует борты по типу: ATR-72 / Saab 340 / AN-26.
 
-Логика:
-- Тянет суточный трек с открытых зеркал ADS-B Exchange (adsb.lol → airplanes.live → adsb.fi).
-- Разбивает на отрезки (legs) по флагу «start of new leg» И по временным разрывам >1.5 часа
-  (это нужно для случаев когда борт стоит на земле без покрытия ADS-B —
-  readsb не успевает поставить флаг, и два рейса склеиваются в один).
-- Аэропорт ищется в три прохода: узкий радиус (10км) для ground-точек,
-  умеренный радиус (30км) для воздушных точек на краях leg-а, иначе показываем координаты.
-- Если первый leg за день начинается в воздухе, а последний leg за вчера —
-  тоже заканчивается в воздухе, и разрыв между ними <30 минут — склеиваем
-  (рейс пересёк полночь UTC).
+Ключевая логика — **по высоте**:
+- Тянет суточный трек с открытых зеркал ADS-B Exchange.
+- Точки на низкой высоте (<3000 ft или ground) считаются у земли — это реальный
+  взлёт/посадка.
+- Полёты разделяются ТОЛЬКО на реальных посадках: разрыв >30 мин + одна
+  из точек у земли. Потери сигнала в крейсе (борт пропал-появился на той же
+  крейсерской высоте) разрыв НЕ создают — это один полёт.
+- Аэропорт ищется ТОЛЬКО возле точек у земли. Если трек поймал борт уже
+  на крейсе и не видел взлёта/посадки — честно пишем «(в воздухе)».
 """
 
 import argparse
@@ -49,18 +48,21 @@ TRACE_SOURCES = [
     "https://globe.adsb.fi/globe_history/{yyyy}/{mm}/{dd}/traces/{last2}/trace_full_{hex}.json",
 ]
 
-GROUND_RADIUS_KM = 10        # для точек, явно помеченных как ground
-AIR_EDGE_RADIUS_KM = 30      # для воздушных точек на краях leg-а
-LEG_GAP_SEC = 5400           # 1.5 часа без сигнала = новый рейс
-STITCH_GAP_SEC = 1800        # 30 минут разрыва — допустимо для склейки полуночи
-STITCH_GAP_KM = 150          # 150 км — допустимо для склейки полуночи
-MIN_LEG_DURATION_SEC = 1200  # 20 минут — короткие обрывки сигнала отбрасываем
+# ─── параметры алгоритма ──────────────────────────────────────────────────────
+
+LOW_ALT_FT             = 3000      # высота ниже которой = «у земли» (взлёт/посадка/заруливание)
+LANDING_GAP_SEC        = 1800      # 30 минут — минимальная стоянка для разрыва на новый рейс
+MAX_SIGNAL_LOSS_SEC    = 10800     # 3 часа — максимальная допустимая потеря сигнала в крейсе
+STITCH_GAP_SEC         = 1800      # 30 минут — допустимо для склейки полуночи
+AIRPORT_RADIUS_KM      = 20        # радиус поиска аэропорта возле точки у земли
+MAX_AIRCRAFT_KMH       = 600       # максимальная скорость борта (ATR/Saab/AN-26) для проверки
+MIN_FLIGHT_DURATION_S  = 600       # 10 минут — короче считаем артефактом
 
 # ─── HTTP ─────────────────────────────────────────────────────────────────────
 
 def http_get_json(url, timeout=25):
     req = urllib.request.Request(url, headers={
-        "User-Agent": "fleet-monitor/4.0",
+        "User-Agent": "fleet-monitor/5.0",
         "Accept-Encoding": "gzip",
     })
     with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -114,21 +116,7 @@ def resolve_hex(reg, cache):
         cache[reg]["error"] = str(e)
         return cache[reg]
 
-# ─── треки ────────────────────────────────────────────────────────────────────
-
-def fetch_trace(hex_id, date):
-    hex_id = hex_id.lower()
-    p = {
-        "yyyy": date.strftime("%Y"), "mm": date.strftime("%m"),
-        "dd":   date.strftime("%d"), "last2": hex_id[-2:], "hex": hex_id,
-    }
-    for tmpl in TRACE_SOURCES:
-        try:
-            return http_get_json(tmpl.format(**p), timeout=30)
-        except Exception:
-            continue
-    return None
-
+# ─── географические и высотные хелперы ────────────────────────────────────────
 
 def haversine_km(lat1, lon1, lat2, lon2):
     R = 6371.0
@@ -151,70 +139,161 @@ def nearest_airport(lat, lon, airports, max_km):
     return None, best_d
 
 
-def parse_legs(trace):
-    """Разбиваем точки на отрезки.
-    Новый leg = либо флаг readsb, либо разрыв во времени >LEG_GAP_SEC."""
-    points = trace.get("trace", [])
+def altitude_ft(pt):
+    """Высота в футах. 0 для ground, None если неизвестно."""
+    alt = pt["alt"]
+    if alt == "ground":
+        return 0
+    if alt is None:
+        return None
+    try:
+        return float(alt)
+    except (TypeError, ValueError):
+        return None
+
+
+def is_low(pt):
+    """Самолёт у земли (взлёт/посадка/заруливание)."""
+    a = altitude_ft(pt)
+    return a is not None and a < LOW_ALT_FT
+
+# ─── треки ────────────────────────────────────────────────────────────────────
+
+def fetch_trace(hex_id, date):
+    hex_id = hex_id.lower()
+    p = {
+        "yyyy": date.strftime("%Y"), "mm": date.strftime("%m"),
+        "dd":   date.strftime("%d"), "last2": hex_id[-2:], "hex": hex_id,
+    }
+    for tmpl in TRACE_SOURCES:
+        try:
+            return http_get_json(tmpl.format(**p), timeout=30)
+        except Exception:
+            continue
+    return None
+
+
+def parse_trace_points(trace):
+    """Список словарей-точек из trace JSON."""
+    if not trace:
+        return []
+    points = []
     t0 = trace.get("timestamp", 0)
-    legs, cur = [], []
-    for p in points:
+    for p in trace.get("trace", []):
         if len(p) < 7:
             continue
         secs, lat, lon, alt = p[0], p[1], p[2], p[3]
-        flags = p[6] or 0
-        pt = {
-            "time":      datetime.fromtimestamp(t0 + secs, tz=timezone.utc),
-            "lat":       lat,
-            "lon":       lon,
-            "alt":       alt,
-            "on_ground": (alt == "ground"),
-        }
-        force_new = bool(flags & 2)
-        if cur and not force_new:
-            gap = (pt["time"] - cur[-1]["time"]).total_seconds()
-            if gap > LEG_GAP_SEC:
-                force_new = True
-        if force_new and cur:
-            legs.append(cur); cur = []
-        cur.append(pt)
-    if cur:
-        legs.append(cur)
-    return [l for l in legs if len(l) >= 2]
+        points.append({
+            "time": datetime.fromtimestamp(t0 + secs, tz=timezone.utc),
+            "lat":  lat,
+            "lon":  lon,
+            "alt":  alt,
+        })
+    return points
 
 
-def stitch_with_previous_day(hex_id, date, legs_today):
-    """Склеить рейс, пересёкший полночь UTC.
-    Условия: первая точка сегодня в воздухе, последняя точка вчера в воздухе,
-    разрыв <STITCH_GAP_SEC по времени И <STITCH_GAP_KM географически."""
-    if not legs_today or legs_today[0][0]["on_ground"]:
-        return legs_today
+def detect_flights(points):
+    """Разбивает точки на полёты.
+    
+    Новый полёт начинается ТОЛЬКО при:
+    - разрыве > MAX_SIGNAL_LOSS_SEC (слишком долго даже для крейсе), ИЛИ
+    - разрыве > LANDING_GAP_SEC и хотя бы одна точка у разрыва на низкой
+      высоте (это реальная посадка/взлёт), ИЛИ
+    - разрыве > LANDING_GAP_SEC и дистанция нереальна для скорости борта
+      (значит сигнал терялся не в крейсе, а во время реального полёта-стоянки).
+    
+    Потеря сигнала в крейсе при крейсерской скорости — это один и тот же полёт.
+    """
+    if not points:
+        return []
+    flights = [[points[0]]]
+    for pt in points[1:]:
+        prev = flights[-1][-1]
+        gap_sec = (pt["time"] - prev["time"]).total_seconds()
+        new = False
+        if gap_sec > MAX_SIGNAL_LOSS_SEC:
+            new = True
+        elif gap_sec > LANDING_GAP_SEC:
+            if is_low(prev) or is_low(pt):
+                new = True
+            else:
+                # Проверка скорости: не превышает ли смещение возможное?
+                dist_km = haversine_km(prev["lat"], prev["lon"], pt["lat"], pt["lon"])
+                max_possible = gap_sec / 3600 * MAX_AIRCRAFT_KMH * 1.2  # +20% запас
+                if dist_km > max_possible:
+                    new = True
+        if new:
+            flights.append([pt])
+        else:
+            flights[-1].append(pt)
+    return [f for f in flights if len(f) >= 2 and
+            (f[-1]["time"] - f[0]["time"]).total_seconds() >= MIN_FLIGHT_DURATION_S]
+
+
+def find_takeoff_landing(flight):
+    """Взлёт = первая низкая точка В НАЧАЛЕ полёта (первые 20 мин).
+    Посадка = последняя низкая точка В КОНЦЕ полёта (последние 20 мин).
+    Это отсеивает случаи когда трек поймал борт уже в крейсе и единственная
+    низкая точка — это только посадка (или только взлёт)."""
+    duration = (flight[-1]["time"] - flight[0]["time"]).total_seconds()
+    window = min(1200, duration * 0.4)  # 20 минут или 40% длительности
+
+    takeoff = next((p for p in flight if is_low(p)), None)
+    landing = next((p for p in reversed(flight) if is_low(p)), None)
+
+    takeoff_known = False
+    if takeoff is not None:
+        offset = (takeoff["time"] - flight[0]["time"]).total_seconds()
+        takeoff_known = offset <= window
+
+    landing_known = False
+    if landing is not None:
+        offset = (flight[-1]["time"] - landing["time"]).total_seconds()
+        landing_known = offset <= window
+
+    return (
+        takeoff if takeoff_known else flight[0],
+        landing if landing_known else flight[-1],
+        takeoff_known,
+        landing_known,
+    )
+
+
+def stitch_with_previous_day(hex_id, date, flights_today):
+    """Склейка через полночь UTC.
+    Условия: первая точка сегодня НЕ у земли (борт в полёте на полночь),
+    последняя точка вчера тоже НЕ у земли,
+    разрыв <30мин по времени и расстояние реалистично."""
+    if not flights_today or is_low(flights_today[0][0]):
+        return flights_today
 
     prev_trace = fetch_trace(hex_id, date - timedelta(days=1))
     if not prev_trace:
-        return legs_today
-    prev_legs = parse_legs(prev_trace)
-    if not prev_legs:
-        return legs_today
+        return flights_today
+    prev_points = parse_trace_points(prev_trace)
+    prev_flights = detect_flights(prev_points)
+    if not prev_flights:
+        return flights_today
 
-    last_prev = prev_legs[-1]
-    if last_prev[-1]["on_ground"]:
-        return legs_today
+    last_prev = prev_flights[-1]
+    if is_low(last_prev[-1]):
+        return flights_today  # вчера уже сел, разные рейсы
 
-    gap_sec = (legs_today[0][0]["time"] - last_prev[-1]["time"]).total_seconds()
+    first = flights_today[0]
+    gap_sec = (first[0]["time"] - last_prev[-1]["time"]).total_seconds()
     if gap_sec > STITCH_GAP_SEC:
-        return legs_today
+        return flights_today
 
-    # Географический разрыв: если конец вчера и начало сегодня далеко друг от друга,
-    # это не один и тот же рейс через полночь, а разные рейсы с потерей покрытия.
-    gap_km = haversine_km(
+    dist_km = haversine_km(
         last_prev[-1]["lat"], last_prev[-1]["lon"],
-        legs_today[0][0]["lat"], legs_today[0][0]["lon"],
+        first[0]["lat"], first[0]["lon"],
     )
-    if gap_km > STITCH_GAP_KM:
-        return legs_today
+    max_possible = gap_sec / 3600 * MAX_AIRCRAFT_KMH * 1.2
+    if dist_km > max_possible:
+        return flights_today
 
-    stitched = last_prev + legs_today[0]
-    return [stitched] + legs_today[1:]
+    stitched = last_prev + first
+    return [stitched] + flights_today[1:]
 
 
 def label_airport(ap):
@@ -223,28 +302,18 @@ def label_airport(ap):
     return f"{code} {ap['name']}"
 
 
-def label_point(pt, airports):
-    """Метка точки: аэропорт если найден, иначе координаты."""
-    if pt["on_ground"]:
-        ap, _ = nearest_airport(pt["lat"], pt["lon"], airports, max_km=GROUND_RADIUS_KM)
+def label_endpoint(pt, known, airports):
+    """Если точка у земли (known=True) — ищем аэропорт.
+    Если борт был в воздухе (трек поймал в крейсе) — пишем координаты."""
+    if known:
+        ap, _ = nearest_airport(pt["lat"], pt["lon"], airports, max_km=AIRPORT_RADIUS_KM)
         if ap:
             return label_airport(ap)
         return f"(на земле: {pt['lat']:.2f},{pt['lon']:.2f})"
-    # Точка в воздухе — но если она первая/последняя в leg-е, аэропорт должен быть рядом
-    ap, _ = nearest_airport(pt["lat"], pt["lon"], airports, max_km=AIR_EDGE_RADIUS_KM)
-    if ap:
-        return label_airport(ap)
     return f"(в воздухе: {pt['lat']:.2f},{pt['lon']:.2f})"
 
 
-def takeoff_landing(leg):
-    """Просто первая и последняя точка leg-а.
-    Промежуточные ground-точки игнорируем (бывают артефактом readsb при слабом сигнале)."""
-    return leg[0], leg[-1]
-
-
 def fmt_time(t, report_date):
-    """Помечаем время отметкой (-1д), если событие из предыдущих суток."""
     if t.date() < report_date:
         return t.strftime("(-1д) %H:%M")
     return t.strftime("%H:%M")
@@ -270,29 +339,21 @@ def report_aircraft(reg, info, date, airports):
         lines.append("   — полёты не выполнял")
         return lines
 
-    legs = parse_legs(trace)
-    if not legs:
+    points = parse_trace_points(trace)
+    flights = detect_flights(points)
+    if not flights:
         lines.append("   — полёты не выполнял")
         return lines
 
-    legs = stitch_with_previous_day(hex_id, date, legs)
+    flights = stitch_with_previous_day(hex_id, date, flights)
 
-    # Отбрасываем короткие обрывки сигнала (<20 минут) — это не реальные рейсы
-    real_legs = [
-        leg for leg in legs
-        if (leg[-1]["time"] - leg[0]["time"]).total_seconds() >= MIN_LEG_DURATION_SEC
-    ]
-    if not real_legs:
-        lines.append("   — полёты не выполнял")
-        return lines
-
-    for leg in real_legs:
-        start, end = takeoff_landing(leg)
-        dur = int((end["time"] - start["time"]).total_seconds() / 60)
+    for flight in flights:
+        takeoff, landing, tk_known, ld_known = find_takeoff_landing(flight)
+        dur = int((landing["time"] - takeoff["time"]).total_seconds() / 60)
         lines.append(
-            f"   {fmt_time(start['time'], date)}→{fmt_time(end['time'], date)}  "
-            f"{label_point(start, airports)} → {label_point(end, airports)}  "
-            f"({dur}мин)"
+            f"   {fmt_time(takeoff['time'], date)}→{fmt_time(landing['time'], date)}  "
+            f"{label_endpoint(takeoff, tk_known, airports)} → "
+            f"{label_endpoint(landing, ld_known, airports)}  ({dur}мин)"
         )
     return lines
 
