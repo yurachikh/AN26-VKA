@@ -53,6 +53,8 @@ GROUND_RADIUS_KM = 10        # для точек, явно помеченных 
 AIR_EDGE_RADIUS_KM = 30      # для воздушных точек на краях leg-а
 LEG_GAP_SEC = 5400           # 1.5 часа без сигнала = новый рейс
 STITCH_GAP_SEC = 1800        # 30 минут разрыва — допустимо для склейки полуночи
+STITCH_GAP_KM = 150          # 150 км — допустимо для склейки полуночи
+MIN_LEG_DURATION_SEC = 1200  # 20 минут — короткие обрывки сигнала отбрасываем
 
 # ─── HTTP ─────────────────────────────────────────────────────────────────────
 
@@ -183,7 +185,7 @@ def parse_legs(trace):
 def stitch_with_previous_day(hex_id, date, legs_today):
     """Склеить рейс, пересёкший полночь UTC.
     Условия: первая точка сегодня в воздухе, последняя точка вчера в воздухе,
-    и разрыв между ними меньше STITCH_GAP_SEC."""
+    разрыв <STITCH_GAP_SEC по времени И <STITCH_GAP_KM географически."""
     if not legs_today or legs_today[0][0]["on_ground"]:
         return legs_today
 
@@ -198,8 +200,17 @@ def stitch_with_previous_day(hex_id, date, legs_today):
     if last_prev[-1]["on_ground"]:
         return legs_today
 
-    gap = (legs_today[0][0]["time"] - last_prev[-1]["time"]).total_seconds()
-    if gap > STITCH_GAP_SEC:
+    gap_sec = (legs_today[0][0]["time"] - last_prev[-1]["time"]).total_seconds()
+    if gap_sec > STITCH_GAP_SEC:
+        return legs_today
+
+    # Географический разрыв: если конец вчера и начало сегодня далеко друг от друга,
+    # это не один и тот же рейс через полночь, а разные рейсы с потерей покрытия.
+    gap_km = haversine_km(
+        last_prev[-1]["lat"], last_prev[-1]["lon"],
+        legs_today[0][0]["lat"], legs_today[0][0]["lon"],
+    )
+    if gap_km > STITCH_GAP_KM:
         return legs_today
 
     stitched = last_prev + legs_today[0]
@@ -227,11 +238,9 @@ def label_point(pt, airports):
 
 
 def takeoff_landing(leg):
-    """Первая ground-точка → взлёт (или первая точка leg-а если ground нет).
-    Аналогично для посадки."""
-    takeoff = next((p for p in leg if p["on_ground"]), leg[0])
-    landing = next((p for p in reversed(leg) if p["on_ground"]), leg[-1])
-    return takeoff, landing
+    """Просто первая и последняя точка leg-а.
+    Промежуточные ground-точки игнорируем (бывают артефактом readsb при слабом сигнале)."""
+    return leg[0], leg[-1]
 
 
 def fmt_time(t, report_date):
@@ -268,7 +277,16 @@ def report_aircraft(reg, info, date, airports):
 
     legs = stitch_with_previous_day(hex_id, date, legs)
 
-    for leg in legs:
+    # Отбрасываем короткие обрывки сигнала (<20 минут) — это не реальные рейсы
+    real_legs = [
+        leg for leg in legs
+        if (leg[-1]["time"] - leg[0]["time"]).total_seconds() >= MIN_LEG_DURATION_SEC
+    ]
+    if not real_legs:
+        lines.append("   — полёты не выполнял")
+        return lines
+
+    for leg in real_legs:
         start, end = takeoff_landing(leg)
         dur = int((end["time"] - start["time"]).total_seconds() / 60)
         lines.append(
