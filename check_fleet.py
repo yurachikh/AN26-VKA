@@ -55,6 +55,7 @@ LANDING_GAP_SEC        = 1800      # 30 минут — минимальная с
 MAX_SIGNAL_LOSS_SEC    = 10800     # 3 часа — максимальная допустимая потеря сигнала в крейсе
 STITCH_GAP_SEC         = 1800      # 30 минут — допустимо для склейки полуночи
 AIRPORT_RADIUS_KM      = 20        # радиус поиска аэропорта возле точки у земли
+AIR_LABEL_RADIUS_KM    = 100       # радиус поиска аэропорта-ориентира для точек "в воздухе"
 MAX_AIRCRAFT_KMH       = 600       # максимальная скорость борта (ATR/Saab/AN-26) для проверки
 MIN_FLIGHT_DURATION_S  = 600       # 10 минут — короче считаем артефактом
 
@@ -303,13 +304,17 @@ def label_airport(ap):
 
 
 def label_endpoint(pt, known, airports):
-    """Если точка у земли (known=True) — ищем аэропорт.
-    Если борт был в воздухе (трек поймал в крейсе) — пишем координаты."""
+    """Если точка у земли (known=True) — точный аэропорт.
+    Если борт был в воздухе (трек поймал в крейсе) — ищем ближайший аэропорт
+    как ориентир в расширенном радиусе и помечаем «~» (не точная посадка)."""
     if known:
         ap, _ = nearest_airport(pt["lat"], pt["lon"], airports, max_km=AIRPORT_RADIUS_KM)
         if ap:
             return label_airport(ap)
         return f"(на земле: {pt['lat']:.2f},{pt['lon']:.2f})"
+    ap, d = nearest_airport(pt["lat"], pt["lon"], airports, max_km=AIR_LABEL_RADIUS_KM)
+    if ap:
+        return f"~{label_airport(ap)} [{d:.0f}км]"
     return f"(в воздухе: {pt['lat']:.2f},{pt['lon']:.2f})"
 
 
