@@ -320,8 +320,8 @@ def stitch_with_previous_day(hex_id, date, flights_today):
 
 def label_airport(ap):
     iata = ap.get("iata") or ""
-    code = f"{iata}/{ap['icao']}" if iata else ap["icao"]
-    return f"{code} {ap['name']}"
+    icao = ap.get("icao") or ""
+    return f"{iata}/{icao}" if iata else icao
 
 
 def label_endpoint(pt, known, airports):
@@ -413,9 +413,7 @@ def label_route_airport(ap_dict):
     """Метка аэропорта из ответа vrs-standing-data."""
     iata = ap_dict.get("iata") or ""
     icao = ap_dict.get("icao") or ""
-    name = ap_dict.get("name") or ""
-    code = f"{iata}/{icao}" if iata else icao
-    return f"{code} {name}".strip()
+    return f"{iata}/{icao}" if iata else icao
 
 
 # ─── отчёт ────────────────────────────────────────────────────────────────────
