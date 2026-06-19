@@ -2,9 +2,10 @@ name: Daily fleet check (Vulkan Air)
 
 on:
   schedule:
-    # 05:30 UTC каждый день. К этому моменту UTC-сутки полностью закрыты,
-    # данные за вчера на зеркалах уже есть.
-    - cron: "30 5 * * *"
+    # 04:00 UTC каждый день (≈06:00 по Будапешту). К этому моменту UTC-сутки
+    # закрыты, данные за вчера на зеркалах есть. Ранний запуск учитывает
+    # возможные задержки GitHub Actions раннеров (до 30–60 мин).
+    - cron: "0 4 * * *"
   workflow_dispatch: {}  # ручной запуск из вкладки Actions
 
 permissions:
@@ -33,16 +34,18 @@ jobs:
           path: report.txt
           retention-days: 90
 
-      - name: Закоммитить обновлённый fleet.json (если изменился)
+      - name: Закоммитить latest_report.txt и fleet.json (если изменились)
         run: |
-          if ! git diff --quiet fleet.json; then
-            git config user.name  "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add fleet.json
-            git commit -m "fleet.json: обновление кэша hex-кодов"
+          cp report.txt latest_report.txt
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add latest_report.txt fleet.json
+          [ -f routes_cache.json ] && git add routes_cache.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Обновление отчёта: $(date -u +%Y-%m-%d)"
             git push
           else
-            echo "fleet.json не менялся, пропускаю."
+            echo "Изменений нет, пропускаю коммит."
           fi
 
       - name: Отправить в Telegram (опционально)
@@ -54,9 +57,18 @@ jobs:
             echo "Telegram-секреты не настроены, пропускаю отправку."
             exit 0
           fi
+          # Ссылка ведёт прямо на страницу этого workflow в Actions, где есть
+          # кнопка "Run workflow" — нажатие в Telegram открывает GitHub,
+          # дальше два тапа и придёт свежий отчёт.
+          WORKFLOW_URL="https://github.com/${GITHUB_REPOSITORY}/actions/workflows/daily.yml"
+          KEYBOARD=$(cat <<EOF
+          {"inline_keyboard":[[{"text":"🔄 Обновить сейчас","url":"${WORKFLOW_URL}"}]]}
+          EOF
+          )
           # Длинные сообщения Telegram режет на 4096 символов — для парка из
-          # 4 An-26 такое влезает с большим запасом.
+          # 11 бортов такое влезает с большим запасом.
           curl -sS -X POST "https://api.telegram.org/bot${TG_BOT_TOKEN}/sendMessage" \
             --data-urlencode "chat_id=${TG_CHAT_ID}" \
-            --data-urlencode "text=$(cat report.txt)" > /dev/null
+            --data-urlencode "text=$(cat report.txt)" \
+            --data-urlencode "reply_markup=${KEYBOARD}" > /dev/null
           echo "Отправлено в Telegram."
