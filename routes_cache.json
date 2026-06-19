@@ -1,0 +1,126 @@
+{
+  "AEG471": null,
+  "AEG472": {
+    "destination": {
+      "alt_feet": 408.0,
+      "alt_meters": 124.36,
+      "countryiso2": "DE",
+      "iata": "FKB",
+      "icao": "EDSB",
+      "lat": 48.7794,
+      "location": "Baden-Baden",
+      "lon": 8.0805,
+      "name": "Karlsruhe Baden-Baden Airport"
+    },
+    "origin": {
+      "alt_feet": 1998.0,
+      "alt_meters": 608.99,
+      "countryiso2": "ES",
+      "iata": "MAD",
+      "icao": "LEMD",
+      "lat": 40.4936,
+      "location": "Madrid",
+      "lon": -3.56676,
+      "name": "Madrid Barajas International Airport"
+    }
+  },
+  "MTL271P": null,
+  "MTL275C": null,
+  "NYX397P": null,
+  "SAR1956": {
+    "destination": {
+      "alt_feet": 489.0,
+      "alt_meters": 149.05,
+      "countryiso2": "PL",
+      "iata": "GDN",
+      "icao": "EPGD",
+      "lat": 54.377602,
+      "location": "Gdańsk",
+      "lon": 18.4662,
+      "name": "Gdańsk Lech Wałęsa Airport"
+    },
+    "origin": {
+      "alt_feet": 236.0,
+      "alt_meters": 71.93,
+      "countryiso2": "SE",
+      "iata": "MMX",
+      "icao": "ESMS",
+      "lat": 55.536305,
+      "location": "Malmö",
+      "lon": 13.376198,
+      "name": "Malmö Sturup Airport"
+    }
+  },
+  "SAR1957": {
+    "destination": {
+      "alt_feet": 236.0,
+      "alt_meters": 71.93,
+      "countryiso2": "SE",
+      "iata": "MMX",
+      "icao": "ESMS",
+      "lat": 55.536305,
+      "location": "Malmö",
+      "lon": 13.376198,
+      "name": "Malmö Sturup Airport"
+    },
+    "origin": {
+      "alt_feet": 489.0,
+      "alt_meters": 149.05,
+      "countryiso2": "PL",
+      "iata": "GDN",
+      "icao": "EPGD",
+      "lat": 54.377602,
+      "location": "Gdańsk",
+      "lon": 18.4662,
+      "name": "Gdańsk Lech Wałęsa Airport"
+    }
+  },
+  "SRN3272": {
+    "destination": {
+      "alt_feet": 69.0,
+      "alt_meters": 21.03,
+      "countryiso2": "NO",
+      "iata": "AES",
+      "icao": "ENAL",
+      "lat": 62.5625,
+      "location": "Ålesund",
+      "lon": 6.1197,
+      "name": "Ålesund Airport"
+    },
+    "origin": {
+      "alt_feet": 17.0,
+      "alt_meters": 5.18,
+      "countryiso2": "DK",
+      "iata": "CPH",
+      "icao": "EKCH",
+      "lat": 55.617901,
+      "location": "Copenhagen",
+      "lon": 12.656,
+      "name": "Copenhagen Kastrup Airport"
+    }
+  },
+  "SRN3273": {
+    "destination": {
+      "alt_feet": 17.0,
+      "alt_meters": 5.18,
+      "countryiso2": "DK",
+      "iata": "CPH",
+      "icao": "EKCH",
+      "lat": 55.617901,
+      "location": "Copenhagen",
+      "lon": 12.656,
+      "name": "Copenhagen Kastrup Airport"
+    },
+    "origin": {
+      "alt_feet": 69.0,
+      "alt_meters": 21.03,
+      "countryiso2": "NO",
+      "iata": "AES",
+      "icao": "ENAL",
+      "lat": 62.5625,
+      "location": "Ålesund",
+      "lon": 6.1197,
+      "name": "Ålesund Airport"
+    }
+  }
+}
