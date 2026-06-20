@@ -25,7 +25,10 @@
     }
   },
   "MTL271P": null,
+  "MTL274C": null,
+  "MTL274P": null,
   "MTL275C": null,
+  "NYX397D": null,
   "NYX397P": null,
   "SAR1956": {
     "destination": {
@@ -122,5 +125,7 @@
       "lon": 6.1197,
       "name": "Ålesund Airport"
     }
-  }
+  },
+  "VKA100": null,
+  "VKA138": null
 }
