@@ -1,14 +1,14 @@
-✈ Fleet Monitor  2026-06-20 UTC
+✈ Fleet Monitor  2026-06-21 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   — полёты не выполнял
+   08:08→16:02  STR/EDDS → STR/EDDS  (473мин)  ‹NYX398D›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   19:13→23:30  ~EDRD [15км] → ~GIB/LXGB [38км]  (256мин)  ‹MTL276P›
+   04:35→05:09  ~LFET [3км] → ~EDRD [15км]  (34мин)  ‹MTL276C›
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
@@ -18,7 +18,7 @@ SP-KPK  [SprintAir]  340 A
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   01:04→04:03  ⟨по плану⟩ MAD/LEMD → FKB/EDSB  (179мин)  ‹AEG472›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ AN-26
