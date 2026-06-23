@@ -30,9 +30,12 @@
   "MTL275C": null,
   "MTL276C": null,
   "MTL276P": null,
+  "MTL277C": null,
+  "MTL277P": null,
   "NYX397D": null,
   "NYX397P": null,
   "NYX398D": null,
+  "NYX399C": null,
   "SAR1956": {
     "destination": {
       "alt_feet": 489.0,
@@ -79,6 +82,54 @@
       "location": "Gdańsk",
       "lon": 18.4662,
       "name": "Gdańsk Lech Wałęsa Airport"
+    }
+  },
+  "SRN3150": {
+    "destination": {
+      "alt_feet": 57.0,
+      "alt_meters": 17.37,
+      "countryiso2": "NO",
+      "iata": "KRS",
+      "icao": "ENCN",
+      "lat": 58.204201,
+      "location": "Kjevik",
+      "lon": 8.08537,
+      "name": "Kristiansand Airport"
+    },
+    "origin": {
+      "alt_feet": 17.0,
+      "alt_meters": 5.18,
+      "countryiso2": "DK",
+      "iata": "CPH",
+      "icao": "EKCH",
+      "lat": 55.617901,
+      "location": "Copenhagen",
+      "lon": 12.656,
+      "name": "Copenhagen Kastrup Airport"
+    }
+  },
+  "SRN3151": {
+    "destination": {
+      "alt_feet": 17.0,
+      "alt_meters": 5.18,
+      "countryiso2": "DK",
+      "iata": "CPH",
+      "icao": "EKCH",
+      "lat": 55.617901,
+      "location": "Copenhagen",
+      "lon": 12.656,
+      "name": "Copenhagen Kastrup Airport"
+    },
+    "origin": {
+      "alt_feet": 57.0,
+      "alt_meters": 17.37,
+      "countryiso2": "NO",
+      "iata": "KRS",
+      "icao": "ENCN",
+      "lat": 58.204201,
+      "location": "Kjevik",
+      "lon": 8.08537,
+      "name": "Kristiansand Airport"
     }
   },
   "SRN3272": {
