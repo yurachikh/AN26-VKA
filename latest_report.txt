@@ -1,35 +1,35 @@
-✈ Fleet Monitor  2026-06-23 UTC
+✈ Fleet Monitor  2026-06-24 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   16:19→18:02  ~DTTB [36км] → ~LEAP [25км]  (102мин)  ‹NYX399D›
+   22:44→23:59  ~GRO/LEGE [8км] → ~LEOT [54км]  (75мин)  ‹NYX371P›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   01:41→07:26  ~HHN/EDFH [10км] → ~LETI [22км]  (345мин)  ‹MTL278C›
+   09:45→09:55  ~XRY/LEJR [5км] → ~TNG/GMTT [45км]  (10мин)  ‹MTL279P›
 YL-RAL  [RAF Avia]  340 A
-   (-1д) 20:26→00:13  OSR/LKMT → BHX/EGBB  (226мин)  ‹MTL277C›
-   19:04→22:58  BHX/EGBB → ~LHSZ [21км]  (233мин)  ‹MTL280P›
+   — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   03:46→04:31  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (45мин)  ‹SAR1956›
-   18:18→19:22  GDN/EPGD → MMX/ESMS  (64мин)  ‹SAR1957›
+   03:46→04:29  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (42мин)  ‹SAR1956›
+   18:29→19:41  GDN/EPGD → MMX/ESMS  (72мин)  ‹SAR1957›
 SP-KPK  [SprintAir]  340 A
-   05:32→06:45  CPH/EKCH → KRS/ENCN  (72мин)  ‹SRN3150›
-   17:49→18:56  KRS/ENCN → CPH/EKCH  (66мин)  ‹SRN3151›
+   05:33→06:52  CPH/EKCH → KRS/ENCN  (78мин)  ‹SRN3150›
+   18:02→19:05  KRS/ENCN → CPH/EKCH  (62мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   01:01→03:59  ⟨по плану⟩ MAD/LEMD → FKB/EDSB  (178мин)  ‹AEG472›
-   18:07→19:15  ~EDTB [7км] → ~LFJU [23км]  (68мин)  ‹AEG471›
+   02:02→04:00  ⟨по плану⟩ MAD/LEMD → FKB/EDSB  (118мин)  ‹AEG472›
+   18:07→20:31  EDTB → ~PNA/LEPP [15км]  (144мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   — полёты не выполнял
+   10:57→15:13  DTW/KDTW → IAH/KIAH  (256мин)  ‹VKA900›
+   18:27→22:05  IAH/KIAH → DAY/KDAY  (217мин)  ‹VKA909›
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   — полёты не выполнял
+   18:32→20:11  ~GRO/LEGE [14км] → ~CAG/LIEE [40км]  (98мин)  ‹VKA930›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
