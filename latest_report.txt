@@ -1,42 +1,38 @@
-✈ Fleet Monitor  2026-06-25 UTC
+✈ Fleet Monitor  2026-06-26 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   (-1д) 22:44→00:46  ~GRO/LEGE [8км] → AGP/LEMG  (121мин)  ‹NYX371P›
-   02:17→08:05  AGP/LEMG → WAW/EPWA  (347мин)  ‹NYX371C›
-   19:38→21:01  WAW/EPWA → BTS/LZIB  (83мин)  ‹NYX372P›
+   11:17→18:55  BTS/LZIB → XRY/LEJR  (458мин)  ‹NYX372C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   17:05→18:25  ~LFEQ [11км] → BHX/EGBB  (79мин)  ‹MTL279C›
-   19:43→20:38  BHX/EGBB → OST/EBOS  (54мин)  ‹MTL279P›
+   09:08→16:30  ~EBZU [18км] → ~RMS/ETAR [9км]  (442мин)  ‹MTL281P›
 YL-RAL  [RAF Avia]  340 A
-   00:14→02:29  ~LDOC [19км] → ~LFTR [78км]  (134мин)  ‹MTL280C›
-   23:40→23:59  ~LFGI [12км] → ~LFSM [11км]  (19мин)  ‹MTL282P›
+   (-1д) 23:40→07:09  ~LFGI [12км] → EDTB  (449мин)  ‹MTL282P›
 SP-KPR  [SprintAir]  340 A
-   03:45→04:24  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (39мин)  ‹SAR1956›
-   18:26→19:32  GDN/EPGD → MMX/ESMS  (66мин)  ‹SAR1957›
+   03:54→04:23  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (29мин)  ‹SAR1956›
+   18:22→19:27  GDN/EPGD → MMX/ESMS  (65мин)  ‹SAR1957›
 SP-KPK  [SprintAir]  340 A
-   05:35→06:53  CPH/EKCH → KRS/ENCN  (77мин)  ‹SRN3150›
-   17:50→18:54  KRS/ENCN → CPH/EKCH  (64мин)  ‹SRN3151›
+   05:28→06:36  CPH/EKCH → KRS/ENCN  (68мин)  ‹SRN3150›
+   17:54→18:59  KRS/ENCN → CPH/EKCH  (65мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   02:34→03:59  ⟨по плану⟩ MAD/LEMD → FKB/EDSB  (85мин)  ‹AEG472›
-   18:13→21:52  EDTB → MAD/LEMD  (218мин)  ‹AEG471›
+   00:58→04:03  MAD/LEMD → EDTB  (185мин)  ‹AEG472›
+   18:07→21:36  FKB/EDSB → TOJ/LETO  (209мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   13:07→15:41  DAY/KDAY → YUL/CYUL  (153мин)  ‹VKA909›
-   17:09→18:18  YUL/CYUL → ~CTH3 [19км]  (69мин)  ‹VKA909›
+   18:03→21:35  KEF/BIKF → SVG/ENZV  (212мин)  ‹VKA909›
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   11:09→12:50  ~TPS/LICT [14км] → (в воздухе: 33.51,17.96)  (101мин)  ‹VKA930›
+   08:15→12:51  ~HL64 [99км] → MRS/LFML  (276мин)  ‹VKA931›
+   14:17→17:40  MRS/LFML → LPL/EGGP  (203мин)  ‹VKA931›
 UR-CQV  [Vulkan Air]  An-26 B
-   06:35→07:28  PZY/LZPP → PZY/LZPP  (53мин)  ‹VKA100›
-   15:19→17:41  PZY/LZPP → MMX/ESMS  (141мин)  ‹VKA170›
+   11:29→18:06  MMX/ESMS → (в воздухе: 67.56,6.69)  (397мин)  ‹VKA170›
+   21:37→21:58  ~BIGE [32км] → KEF/BIKF  (21мин)  ‹VKA171›
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────

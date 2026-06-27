@@ -37,9 +37,11 @@
   "MTL279P": null,
   "MTL280C": null,
   "MTL280P": null,
+  "MTL281P": null,
   "MTL282P": null,
   "NYX371C": null,
   "NYX371P": null,
+  "NYX372C": null,
   "NYX372P": null,
   "NYX397D": null,
   "NYX397P": null,
@@ -193,7 +195,9 @@
   "VKA100": null,
   "VKA138": null,
   "VKA170": null,
+  "VKA171": null,
   "VKA900": null,
   "VKA909": null,
-  "VKA930": null
+  "VKA930": null,
+  "VKA931": null
 }
