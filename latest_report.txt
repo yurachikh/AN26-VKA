@@ -1,39 +1,38 @@
-✈ Fleet Monitor  2026-06-29 UTC
+✈ Fleet Monitor  2026-06-30 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   07:40→08:14  XRY/LEJR → TNG/GMTT  (33мин)  ‹NYX373P›
-   12:31→14:18  ~TNG/GMTT [12км] → ~ZAZ/LEZG [59км]  (106мин)  ‹NYX373C›
+   07:28→12:43  ~ZAZ/LEZG [71км] → ~ZAZ/LEZG [63км]  (315мин)  ‹NYX374C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   12:17→13:11  ~BUD/LHBP [11км] → OSR/LKMT  (53мин)  ‹MTL284D›
-   15:32→18:20  OSR/LKMT → EBZU  (167мин)  ‹MTL286C›
+   07:28→09:54  EBZU → ~LKHN [16км]  (145мин)  ‹MTL288P›
+   11:59→14:50  OSR/LKMT → EBZU  (171мин)  ‹MTL288C›
 YL-RAL  [RAF Avia]  340 A
-   20:51→23:42  ~AGP/LEMG [8км] → ~OZP/LEMO [63км]  (171мин)  ‹MTL287C›
+   19:18→23:23  ~LETF [14км] → ~TOJ/LETO [49км]  (245мин)  ‹MTL285C›
 SP-KPR  [SprintAir]  340 A
-   03:15→03:37  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (22мин)  ‹SAR1956›
-   18:03→19:08  GDN/EPGD → MMX/ESMS  (64мин)  ‹SAR1957›
+   03:41→04:17  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (35мин)  ‹SAR1956›
+   18:19→19:26  GDN/EPGD → MMX/ESMS  (67мин)  ‹SAR1957›
 SP-KPK  [SprintAir]  340 A
-   04:22→06:29  CPH/EKCH → AES/ENAL  (126мин)  ‹SRN3272›
-   16:29→18:47  AES/ENAL → CPH/EKCH  (137мин)  ‹SRN3273›
+   05:38→07:59  CPH/EKCH → AES/ENAL  (140мин)  ‹SRN3272›
+   16:10→18:37  AES/ENAL → CPH/EKCH  (147мин)  ‹SRN3273›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   18:13→21:31  EDTB → MAD/LEMD  (197мин)  ‹AEG471›
+   00:44→04:06  MAD/LEMD → FKB/EDSB  (202мин)  ‹AEG472›
+   18:05→21:38  EDTB → MAD/LEMD  (213мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   11:00→20:14  ~SVG/ENZV [34км] → LBG/LFPB  (554мин)  ‹VKA150›
+   15:27→19:43  LBG/LFPB → ~NNA/GMMY [26км]  (255мин)  ‹VKA160›
+   23:45→23:59  ~TNG/GMTT [48км] → ~XRY/LEJR [48км]  (14мин)  ‹VKA161›
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
-   01:37→03:51  YUL/CYUL → IAD/KIAD  (133мин)  ‹VKA931›
-   16:40→18:16  IAD/KIAD → ILM/KILM  (95мин)  ‹VKA171›
-   19:35→22:06  ILM/KILM → ~NAS/MYNN [6км]  (151мин)  ‹VKA171›
+   — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
