@@ -1,34 +1,35 @@
-✈ Fleet Monitor  2026-06-30 UTC
+✈ Fleet Monitor  2026-07-01 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   07:28→12:43  ~ZAZ/LEZG [71км] → ~ZAZ/LEZG [63км]  (315мин)  ‹NYX374C›
+   05:27→07:01  ~ZAZ/LEZG [27км] → ~TNG/GMTT [16км]  (93мин)  ‹NYX375P›
+   08:49→10:38  TNG/GMTT → ~ZAZ/LEZG [69км]  (108мин)  ‹NYX375C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   07:28→09:54  EBZU → ~LKHN [16км]  (145мин)  ‹MTL288P›
-   11:59→14:50  OSR/LKMT → EBZU  (171мин)  ‹MTL288C›
+   07:04→07:59  ~OST/EBOS [22км] → BHX/EGBB  (55мин)  ‹MTL289P›
+   09:34→12:21  BHX/EGBB → GOT/ESGG  (167мин)  ‹MTL289C›
 YL-RAL  [RAF Avia]  340 A
-   19:18→23:23  ~LETF [14км] → ~TOJ/LETO [49км]  (245мин)  ‹MTL285C›
+   15:45→19:12  ~OZP/LEMO [5км] → ~LEI/LEAM [43км]  (207мин)  ‹MTL290C›
 SP-KPR  [SprintAir]  340 A
-   03:41→04:17  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (35мин)  ‹SAR1956›
-   18:19→19:26  GDN/EPGD → MMX/ESMS  (67мин)  ‹SAR1957›
+   03:47→04:20  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (33мин)  ‹SAR1956›
+   18:21→19:21  GDN/EPGD → MMX/ESMS  (60мин)  ‹SAR1957›
 SP-KPK  [SprintAir]  340 A
-   05:38→07:59  CPH/EKCH → AES/ENAL  (140мин)  ‹SRN3272›
-   16:10→18:37  AES/ENAL → CPH/EKCH  (147мин)  ‹SRN3273›
+   05:31→07:44  CPH/EKCH → AES/ENAL  (132мин)  ‹SRN3272›
+   16:16→18:26  AES/ENAL → CPH/EKCH  (130мин)  ‹SRN3273›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   00:44→04:06  MAD/LEMD → FKB/EDSB  (202мин)  ‹AEG472›
-   18:05→21:38  EDTB → MAD/LEMD  (213мин)  ‹AEG471›
+   01:16→04:09  MAD/LEMD → EDTB  (172мин)  ‹AEG472›
+   18:01→21:18  FKB/EDSB → TOJ/LETO  (196мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   15:27→19:43  LBG/LFPB → ~NNA/GMMY [26км]  (255мин)  ‹VKA160›
-   23:45→23:59  ~TNG/GMTT [48км] → ~XRY/LEJR [48км]  (14мин)  ‹VKA161›
+   (-1д) 23:45→01:41  ~TNG/GMTT [48км] → ~ZAZ/LEZG [52км]  (115мин)  ‹VKA161›
+   18:12→18:52  ~LESG [60км] → ~VLL/LEVD [11км]  (40мин)  ‹VKA160›
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
