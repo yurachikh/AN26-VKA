@@ -1,35 +1,35 @@
-✈ Fleet Monitor  2026-07-01 UTC
+✈ Fleet Monitor  2026-07-02 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   05:27→07:01  ~ZAZ/LEZG [27км] → ~TNG/GMTT [16км]  (93мин)  ‹NYX375P›
-   08:49→10:38  TNG/GMTT → ~ZAZ/LEZG [69км]  (108мин)  ‹NYX375C›
+   05:36→07:17  ~ZAZ/LEZG [25км] → TNG/GMTT  (100мин)  ‹NYX376P›
+   09:46→11:29  TNG/GMTT → ~ZAZ/LEZG [64км]  (102мин)  ‹NYX376C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   07:04→07:59  ~OST/EBOS [22км] → BHX/EGBB  (55мин)  ‹MTL289P›
-   09:34→12:21  BHX/EGBB → GOT/ESGG  (167мин)  ‹MTL289C›
+   05:28→07:46  ~GOT/ESGG [12км] → STR/EDDS  (137мин)  ‹MTL293P›
+   09:27→17:49  STR/EDDS → BOH/EGHH  (502мин)  ‹MTL247P›
 YL-RAL  [RAF Avia]  340 A
-   15:45→19:12  ~OZP/LEMO [5км] → ~LEI/LEAM [43км]  (207мин)  ‹MTL290C›
+   17:24→20:24  ~LFDQ [16км] → ~LOLH [11км]  (179мин)  ‹MTL294C›
 SP-KPR  [SprintAir]  340 A
-   03:47→04:20  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (33мин)  ‹SAR1956›
-   18:21→19:21  GDN/EPGD → MMX/ESMS  (60мин)  ‹SAR1957›
+   03:43→04:43  MMX/ESMS → GDN/EPGD  (60мин)  ‹SAR1956›
+   18:08→19:24  GDN/EPGD → MMX/ESMS  (76мин)  ‹SAR1957›
 SP-KPK  [SprintAir]  340 A
-   05:31→07:44  CPH/EKCH → AES/ENAL  (132мин)  ‹SRN3272›
-   16:16→18:26  AES/ENAL → CPH/EKCH  (130мин)  ‹SRN3273›
+   05:30→06:47  CPH/EKCH → KRS/ENCN  (76мин)  ‹SRN3150›
+   17:50→18:58  KRS/ENCN → CPH/EKCH  (68мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   01:16→04:09  MAD/LEMD → EDTB  (172мин)  ‹AEG472›
-   18:01→21:18  FKB/EDSB → TOJ/LETO  (196мин)  ‹AEG471›
+   00:44→04:09  ⟨по плану⟩ MAD/LEMD → EDTB  (204мин)  ‹AEG472›
+   18:00→19:57  FKB/EDSB → ~LFDR [21км]  (117мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   (-1д) 23:45→01:41  ~TNG/GMTT [48км] → ~ZAZ/LEZG [52км]  (115мин)  ‹VKA161›
-   18:12→18:52  ~LESG [60км] → ~VLL/LEVD [11км]  (40мин)  ‹VKA160›
+   09:08→13:58  ~LETZ [15км] → BTS/LZIB  (289мин)  ‹VKA164›
+   15:15→17:05  BTS/LZIB → FKB/EDSB  (110мин)  ‹VKA165›
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
