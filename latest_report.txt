@@ -1,16 +1,17 @@
-✈ Fleet Monitor  2026-07-04 UTC
+✈ Fleet Monitor  2026-07-05 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   — полёты не выполнял
+   05:29→10:11  ~ZAZ/LEZG [58км] → ~ZAZ/LEZG [73км]  (281мин)  ‹NYX377C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   — полёты не выполнял
+   09:19→09:35  ~TNG/GMTT [49км] → ~AGP/LEMG [44км]  (16мин)  ‹MTL247C›
 YL-RAL  [RAF Avia]  340 A
-   — полёты не выполнял
+   11:16→14:27  ~BHX/EGBB [8км] → QGY/LHPR  (190мин)  ‹MTL295P›
+   15:39→22:24  ~LZMC [4км] → ~GIB/LXGB [38км]  (405мин)  ‹MTL295C›
 SP-KPR  [SprintAir]  340 A
    — полёты не выполнял
 SP-KPK  [SprintAir]  340 A
@@ -18,14 +19,16 @@ SP-KPK  [SprintAir]  340 A
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   02:25→04:05  ⟨по плану⟩ MAD/LEMD → FKB/EDSB  (100мин)  ‹AEG472›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   — полёты не выполнял
+   04:29→06:14  FKB/EDSB → HAM/EDDH  (104мин)  ‹VKA196›
+   18:02→21:41  HAM/EDDH → SOF/LBSF  (218мин)  ‹VKA197›
+   22:51→23:06  SOF/LBSF → ~LBDB [30км]  (15мин)  ‹VKA197›
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   — полёты не выполнял
+   07:00→11:40  KEF/BIKF → EBZU  (280мин)  ‹VKA930›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
