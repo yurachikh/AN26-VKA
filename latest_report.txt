@@ -1,35 +1,37 @@
-✈ Fleet Monitor  2026-07-07 UTC
+✈ Fleet Monitor  2026-07-08 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   05:17→11:11  ~ZAZ/LEZG [59км] → ~ZAZ/LEZG [71км]  (353мин)  ‹NYX379P›
+   05:16→06:55  ~ZAZ/LEZG [49км] → ~TNG/GMTT [12км]  (98мин)  ‹NYX380P›
+   12:24→13:51  ~TNG/GMTT [41км] → ~TEV/LETL [72км]  (86мин)  ‹NYX380C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   (-1д) 23:08→05:29  ~LFOR [18км] → ~ESVB [100км]  (380мин)  ‹MTL296C›
+   05:52→11:12  ~EYKS [4км] → FKB/EDSB  (319мин)  ‹MTL297C›
 YL-RAL  [RAF Avia]  340 A
-   07:56→11:01  ~TOJ/LETO [26км] → EBZU  (185мин)  ‹MTL371R›
-   12:03→14:23  (на земле: 51.25,2.80) → ~ESTG [40км]  (140мин)  ‹MTL371R›
+   — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   03:56→04:25  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (28мин)  ‹SAR1956›
-   19:27→19:53  ⟨по плану⟩ GDN/EPGD → MMX/ESMS  (26мин)  ‹SAR1957›
+   04:08→04:42  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (34мин)  ‹SAR1956›
+   18:56→19:22  ⟨по плану⟩ GDN/EPGD → MMX/ESMS  (25мин)  ‹SAR1957›
 SP-KPK  [SprintAir]  340 A
-   05:41→07:01  CPH/EKCH → KRS/ENCN  (79мин)  ‹SRN3150›
-   17:48→18:48  KRS/ENCN → CPH/EKCH  (59мин)  ‹SRN3151›
+   05:31→06:46  CPH/EKCH → KRS/ENCN  (75мин)  ‹SRN3150›
+   17:50→18:49  KRS/ENCN → CPH/EKCH  (58мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   00:52→03:58  ⟨по плану⟩ MAD/LEMD → EDTB  (186мин)  ‹AEG472›
-   17:58→21:10  FKB/EDSB → MAD/LEMD  (191мин)  ‹AEG471›
+   00:52→04:05  ⟨по плану⟩ MAD/LEMD → EDTB  (193мин)  ‹AEG472›
+   18:07→21:31  EDTB → MAD/LEMD  (203мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   20:04→23:59  EBZU → ~LECT [1км]  (235мин)  ‹VKA166›
+   (-1д) 20:04→00:45  EBZU → AGP/LEMG  (280мин)  ‹VKA166›
+   16:31→17:23  AGP/LEMG → ~NNA/GMMY [26км]  (51мин)  ‹VKA166›
+   20:49→22:37  ~TNG/GMTT [41км] → ~VIT/LEVT [21км]  (108мин)  ‹VKA167›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
