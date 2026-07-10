@@ -1,37 +1,38 @@
-✈ Fleet Monitor  2026-07-08 UTC
+✈ Fleet Monitor  2026-07-09 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   05:16→06:55  ~ZAZ/LEZG [49км] → ~TNG/GMTT [12км]  (98мин)  ‹NYX380P›
-   12:24→13:51  ~TNG/GMTT [41км] → ~TEV/LETL [72км]  (86мин)  ‹NYX380C›
+   05:22→07:28  ~ZAZ/LEZG [60км] → TNG/GMTT  (126мин)  ‹NYX381P›
+   11:39→16:11  ~TNG/GMTT [1км] → XRY/LEJR  (271мин)  ‹NYX381D›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   05:52→11:12  ~EYKS [4км] → FKB/EDSB  (319мин)  ‹MTL297C›
+   06:06→12:49  ~EDTB [7км] → FKB/EDSB  (402мин)  ‹MTL298C›
 YL-RAL  [RAF Avia]  340 A
-   — полёты не выполнял
+   05:48→07:24  ~EYMM [33км] → QGY/LHPR  (96мин)  ‹MTL300P›
+   09:10→12:41  ~QGY/LHPR [10км] → ~ESGI [5км]  (211мин)  ‹MTL300C›
 SP-KPR  [SprintAir]  340 A
-   04:08→04:42  MMX/ESMS → ⟨по плану⟩ GDN/EPGD  (34мин)  ‹SAR1956›
-   18:56→19:22  ⟨по плану⟩ GDN/EPGD → MMX/ESMS  (25мин)  ‹SAR1957›
+   03:49→04:50  MMX/ESMS → GDN/EPGD  (60мин)  ‹SAR1956›
+   19:03→19:24  ⟨по плану⟩ GDN/EPGD → MMX/ESMS  (20мин)  ‹SAR1957›
 SP-KPK  [SprintAir]  340 A
-   05:31→06:46  CPH/EKCH → KRS/ENCN  (75мин)  ‹SRN3150›
-   17:50→18:49  KRS/ENCN → CPH/EKCH  (58мин)  ‹SRN3151›
+   05:22→06:36  CPH/EKCH → KRS/ENCN  (74мин)  ‹SRN3150›
+   17:52→18:57  KRS/ENCN → CPH/EKCH  (65мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   00:52→04:05  ⟨по плану⟩ MAD/LEMD → EDTB  (193мин)  ‹AEG472›
-   18:07→21:31  EDTB → MAD/LEMD  (203мин)  ‹AEG471›
+   00:49→04:03  ⟨по плану⟩ MAD/LEMD → FKB/EDSB  (193мин)  ‹AEG472›
+   18:07→20:09  EDTB → ~LFBM [34км]  (121мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   (-1д) 20:04→00:45  EBZU → AGP/LEMG  (280мин)  ‹VKA166›
-   16:31→17:23  AGP/LEMG → ~NNA/GMMY [26км]  (51мин)  ‹VKA166›
-   20:49→22:37  ~TNG/GMTT [41км] → ~VIT/LEVT [21км]  (108мин)  ‹VKA167›
+   00:13→04:01  ~VIT/LEVT [13км] → LEJ/EDDP  (227мин)  ‹VKA167›
+   16:54→19:58  LEJ/EDDP → GRO/LEGE  (183мин)  ‹VKA130›
+   21:49→23:59  ~GRO/LEGE [11км] → ~LEAX [18км]  (130мин)  ‹VKA130›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
