@@ -419,7 +419,10 @@ def label_route_airport(ap_dict):
 # ─── отчёт ────────────────────────────────────────────────────────────────────
 
 def report_aircraft(reg, info, date, airports, routes_cache):
+    """Возвращает (lines, route_pairs) где route_pairs — список (dep_label, arr_label)
+    для экспорта в Google Sheets."""
     lines = []
+    route_pairs = []
     hex_id = info.get("hex")
     typ   = info.get("type") or info.get("icao_type") or ""
     owner = info.get("owner") or ""
@@ -430,18 +433,18 @@ def report_aircraft(reg, info, date, airports, routes_cache):
 
     if not hex_id:
         lines.append("   ⚠ hex не определён")
-        return lines
+        return lines, route_pairs
 
     trace = fetch_trace(hex_id, date)
     if trace is None:
         lines.append("   — полёты не выполнял")
-        return lines
+        return lines, route_pairs
 
     points = parse_trace_points(trace)
     flights = detect_flights(points)
     if not flights:
         lines.append("   — полёты не выполнял")
-        return lines
+        return lines, route_pairs
 
     flights = stitch_with_previous_day(hex_id, date, flights)
 
@@ -449,39 +452,42 @@ def report_aircraft(reg, info, date, airports, routes_cache):
         takeoff, landing, tk_known, ld_known = find_takeoff_landing(flight)
         dur = int((landing["time"] - takeoff["time"]).total_seconds() / 60)
 
-        # Метки по координатам — то, что мы реально увидели в треке.
         tk_label = label_endpoint(takeoff, tk_known, airports)
         ld_label = label_endpoint(landing, ld_known, airports)
 
-        # Если хотя бы один конец неточен — пробуем спросить маршрут по позывному.
         callsign = dominant_callsign(flight)
         route = lookup_route(callsign, routes_cache) if callsign else None
 
-        # Подменяем неточный конец на плановый из VRS, помечая «по плану».
         if route:
             if not tk_known:
                 tk_label = f"⟨по плану⟩ {label_route_airport(route['origin'])}"
             if not ld_known:
                 ld_label = f"⟨по плану⟩ {label_route_airport(route['destination'])}"
 
+        route_pairs.append((tk_label, ld_label))
+
         suffix = f"  ‹{callsign}›" if callsign else ""
         lines.append(
             f"   {fmt_time(takeoff['time'], date)}→{fmt_time(landing['time'], date)}  "
             f"{tk_label} → {ld_label}  ({dur}мин){suffix}"
         )
-    return lines
+    return lines, route_pairs
 
 
 def build_report(fleet_groups, date, airports, cache, routes_cache):
+    """Возвращает (report_text, aircraft_routes) для Telegram и Google Sheets."""
     sep = "─" * 36
     lines = [f"✈ Fleet Monitor  {date.isoformat()} UTC", sep]
+    aircraft_routes = {}  # {reg: [(dep, arr), ...]}
     for group_name, regs in fleet_groups.items():
         lines.append(f"\n▸ {group_name}")
         for reg in regs:
             info = resolve_hex(reg, cache)
-            lines.extend(report_aircraft(reg, info, date, airports, routes_cache))
+            ac_lines, ac_routes = report_aircraft(reg, info, date, airports, routes_cache)
+            lines.extend(ac_lines)
+            aircraft_routes[reg] = ac_routes
         lines.append(sep)
-    return "\n".join(lines)
+    return "\n".join(lines), aircraft_routes
 
 # ─── main ─────────────────────────────────────────────────────────────────────
 
@@ -503,10 +509,20 @@ def main():
 
     cache = load_cache()
     routes_cache = load_routes_cache()
-    report = build_report(FLEET_GROUPS, date, airports, cache, routes_cache)
+    report, aircraft_routes = build_report(FLEET_GROUPS, date, airports, cache, routes_cache)
     save_cache(cache)
     save_routes_cache(routes_cache)
     print(report)
+
+    # Экспорт в Google Sheets (если настроен)
+    try:
+        from sheets_export import update_sheet
+        columns = [reg for regs in FLEET_GROUPS.values() for reg in regs]
+        update_sheet(date, aircraft_routes, columns)
+    except ImportError:
+        pass  # gspread не установлен — пропускаем молча
+    except Exception as e:
+        print(f"[sheets] Ошибка: {e}", file=sys.stderr)
 
 
 if __name__ == "__main__":
