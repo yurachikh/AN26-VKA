@@ -21,9 +21,12 @@ jobs:
         with:
           python-version: "3.12"
 
-      - run: pip install airportsdata
+      - run: pip install airportsdata gspread google-auth
 
       - name: Запуск суточной сводки
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
         run: |
           python check_fleet.py | tee report.txt
 
