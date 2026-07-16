@@ -75,6 +75,7 @@
   "MTL303P": null,
   "MTL304C": null,
   "MTL304P": null,
+  "MTL305P": null,
   "MTL371P": null,
   "MTL371R": null,
   "NYX371C": null,
@@ -101,6 +102,8 @@
   "NYX383P": null,
   "NYX384C": null,
   "NYX384P": null,
+  "NYX385C": null,
+  "NYX385P": null,
   "NYX397D": null,
   "NYX397P": null,
   "NYX398D": null,
@@ -154,6 +157,11 @@
       "name": "Gdańsk Lech Wałęsa Airport"
     }
   },
+  "SRN130": null,
+  "SRN131": null,
+  "SRN190": null,
+  "SRN191": null,
+  "SRN192": null,
   "SRN3150": {
     "destination": {
       "alt_feet": 57.0,
@@ -258,6 +266,7 @@
   "VKA132": null,
   "VKA133": null,
   "VKA134": null,
+  "VKA135": null,
   "VKA136": null,
   "VKA137": null,
   "VKA138": null,
