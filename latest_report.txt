@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-07-17 UTC
+✈ Fleet Monitor  2026-07-18 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,34 +8,28 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   07:56→10:15  ~EPML [44км] → EDTB  (139мин)  ‹MTL306C›
-   15:55→21:53  ~FKB/EDSB [5км] → MAN/EGCC  (357мин)  ‹MTL307C›
-   23:11→23:59  MAN/EGCC → ~EGMH [18км]  (48мин)  ‹MTL307C›
+   (-1д) 23:11→00:10  MAN/EGCC → OST/EBOS  (58мин)  ‹MTL307C›
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   (-1д) 21:23→00:15  EBZU → KTW/EPKT  (171мин)  ‹SRN112›
-   12:14→13:36  KTW/EPKT → LEJ/EDDP  (82мин)  ‹SRN780P›
-   16:48→18:36  LEJ/EDDP → QGY/LHPR  (107мин)  ‹SRN781›
+   12:48→14:01  QGY/LHPR → WRO/EPWR  (72мин)  ‹SRN155›
 SP-KPK  [SprintAir]  340 A
-   06:01→07:03  CPH/EKCH → KRS/ENCN  (62мин)  ‹SRN3150›
-   17:56→19:17  KRS/ENCN → CPH/EKCH  (81мин)  ‹SRN3151›
+   03:57→05:51  CPH/EKCH → WAW/EPWA  (113мин)  ‹SRN771P›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   01:38→04:15  ⟨по плану⟩ MAD/LEMD → EDTB  (156мин)  ‹AEG472›
-   18:37→22:18  ~EDTB [7км] → MAD/LEMD  (221мин)  ‹AEG471›
+   00:59→04:05  ⟨по плану⟩ MAD/LEMD → EDTB  (185мин)  ‹AEG472›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   20:28→22:40  MAD/LEMD → ~TNG/GMTT [25км]  (131мин)  ‹VKA154›
+   02:06→03:31  ~TNG/GMTT [33км] → ~ZAZ/LEZG [60км]  (84мин)  ‹VKA155›
+   21:28→23:35  ~ZAZ/LEZG [60км] → ~TTU/GMTN [25км]  (126мин)  ‹VKA158›
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   03:37→05:06  ~TNG/GMTT [33км] → ~ZAZ/LEZG [51км]  (88мин)  ‹VKA153›
-   22:52→23:59  ~ZAZ/LEZG [67км] → ~LELI [24км]  (66мин)  ‹VKA156›
+   (-1д) 22:52→05:16  ~ZAZ/LEZG [67км] → ~ZAZ/LEZG [64км]  (384мин)  ‹VKA156›
 UR-CQV  [Vulkan Air]  An-26 B
-   15:18→16:31  BHX/EGBB → EBZU  (72мин)  ‹VKA148›
+   — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 17.07.2026
+[sheets] Добавлена строка за 18.07.2026
