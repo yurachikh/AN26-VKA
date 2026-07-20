@@ -1,35 +1,39 @@
-✈ Fleet Monitor  2026-07-18 UTC
+✈ Fleet Monitor  2026-07-19 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   — полёты не выполнял
+   07:22→07:37  XRY/LEJR → ~TNG/GMTT [18км]  (15мин)  ‹NYX387P›
+   10:56→12:13  ~TNG/GMTT [40км] → ~ZAZ/LEZG [74км]  (77мин)  ‹NYX387C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   (-1д) 23:11→00:10  MAN/EGCC → OST/EBOS  (58мин)  ‹MTL307C›
-YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
+YL-RAL  [RAF Avia]  340 A
+   11:24→14:01  ~EYLN [24км] → ~PEV/LHPP [13км]  (157мин)  ‹TDR9811›
 SP-KPR  [SprintAir]  340 A
-   12:48→14:01  QGY/LHPR → WRO/EPWR  (72мин)  ‹SRN155›
+   — полёты не выполнял
 SP-KPK  [SprintAir]  340 A
-   03:57→05:51  CPH/EKCH → WAW/EPWA  (113мин)  ‹SRN771P›
+   — полёты не выполнял
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   00:59→04:05  ⟨по плану⟩ MAD/LEMD → EDTB  (185мин)  ‹AEG472›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   02:06→03:31  ~TNG/GMTT [33км] → ~ZAZ/LEZG [60км]  (84мин)  ‹VKA155›
-   21:28→23:35  ~ZAZ/LEZG [60км] → ~TTU/GMTN [25км]  (126мин)  ‹VKA158›
+   02:57→04:24  ~TNG/GMTT [31км] → ~ZAZ/LEZG [56км]  (86мин)  ‹VKA159›
+   17:44→19:50  ~TEV/LETL [65км] → TNG/GMTT  (126мин)  ‹VKA100›
+   21:42→23:53  ~TTU/GMTN [25км] → BCN/LEBL  (130мин)  ‹VKA101›
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   (-1д) 22:52→05:16  ~ZAZ/LEZG [67км] → ~ZAZ/LEZG [64км]  (384мин)  ‹VKA156›
+   01:49→03:58  ~ZAZ/LEZG [62км] → ~TTU/GMTN [31км]  (129мин)  ‹VKA150›
+   07:29→09:01  ~TNG/GMTT [32км] → ~ZAZ/LEZG [50км]  (91мин)  ‹VKA151›
+   21:25→23:32  ~TEV/LETL [69км] → ~TTU/GMTN [28км]  (126мин)  ‹VKA152›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 18.07.2026
+[sheets] Добавлена строка за 19.07.2026
