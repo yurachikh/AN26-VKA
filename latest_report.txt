@@ -1,39 +1,39 @@
-✈ Fleet Monitor  2026-07-19 UTC
+✈ Fleet Monitor  2026-07-20 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   07:22→07:37  XRY/LEJR → ~TNG/GMTT [18км]  (15мин)  ‹NYX387P›
-   10:56→12:13  ~TNG/GMTT [40км] → ~ZAZ/LEZG [74км]  (77мин)  ‹NYX387C›
+   06:54→12:10  ~ZAZ/LEZG [60км] → ~TEV/LETL [71км]  (316мин)  ‹NYX388P›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   — полёты не выполнял
+   06:11→08:25  ~EBZU [14км] → BTS/LZIB  (134мин)  ‹MTL309P›
+   12:07→17:16  ~LZKS [7км] → ~LFNP [21км]  (308мин)  ‹MTL309C›
 YL-RAL  [RAF Avia]  340 A
-   11:24→14:01  ~EYLN [24км] → ~PEV/LHPP [13км]  (157мин)  ‹TDR9811›
-SP-KPR  [SprintAir]  340 A
    — полёты не выполнял
+SP-KPR  [SprintAir]  340 A
+   07:19→09:02  WRO/EPWR → OMR/LROD  (103мин)  ‹SRN130›
+   11:13→15:02  OMR/LROD → BRE/EDDW  (229мин)  ‹SRN131›
+   17:04→20:00  BRE/EDDW → OMR/LROD  (176мин)  ‹SRN132›
 SP-KPK  [SprintAir]  340 A
    — полёты не выполнял
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   — полёты не выполнял
+   18:20→21:52  EDTB → MAD/LEMD  (211мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   02:57→04:24  ~TNG/GMTT [31км] → ~ZAZ/LEZG [56км]  (86мин)  ‹VKA159›
-   17:44→19:50  ~TEV/LETL [65км] → TNG/GMTT  (126мин)  ‹VKA100›
-   21:42→23:53  ~TTU/GMTN [25км] → BCN/LEBL  (130мин)  ‹VKA101›
+   05:25→12:20  BCN/LEBL → BCN/LEBL  (415мин)  ‹VKA102›
+   16:16→19:25  BCN/LEBL → TNG/GMTT  (188мин)  ‹VKA104›
+   21:15→23:31  TNG/GMTT → BCN/LEBL  (136мин)  ‹VKA105›
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   01:49→03:58  ~ZAZ/LEZG [62км] → ~TTU/GMTN [31км]  (129мин)  ‹VKA150›
-   07:29→09:01  ~TNG/GMTT [32км] → ~ZAZ/LEZG [50км]  (91мин)  ‹VKA151›
-   21:25→23:32  ~TEV/LETL [69км] → ~TTU/GMTN [28км]  (126мин)  ‹VKA152›
+   18:40→20:08  ~TNG/GMTT [32км] → ~TEV/LETL [72км]  (87мин)  ‹VKA153›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 19.07.2026
+[sheets] Добавлена строка за 20.07.2026
