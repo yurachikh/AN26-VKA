@@ -1,39 +1,40 @@
-✈ Fleet Monitor  2026-07-20 UTC
+✈ Fleet Monitor  2026-07-21 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   06:54→12:10  ~ZAZ/LEZG [60км] → ~TEV/LETL [71км]  (316мин)  ‹NYX388P›
+   06:31→08:20  ~TEV/LETL [68км] → ~TNG/GMTT [4км]  (108мин)  ‹NYX389P›
+   12:42→14:02  ~TTU/GMTN [27км] → ~TEV/LETL [59км]  (79мин)  ‹NYX389C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   06:11→08:25  ~EBZU [14км] → BTS/LZIB  (134мин)  ‹MTL309P›
-   12:07→17:16  ~LZKS [7км] → ~LFNP [21км]  (308мин)  ‹MTL309C›
-YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
+YL-RAL  [RAF Avia]  340 A
+   18:44→18:55  ~RJK/LDRI [21км] → ~LDZB [47км]  (10мин)  ‹TDR820›
 SP-KPR  [SprintAir]  340 A
-   07:19→09:02  WRO/EPWR → OMR/LROD  (103мин)  ‹SRN130›
-   11:13→15:02  OMR/LROD → BRE/EDDW  (229мин)  ‹SRN131›
-   17:04→20:00  BRE/EDDW → OMR/LROD  (176мин)  ‹SRN132›
+   10:52→14:30  OMR/LROD → BRE/EDDW  (218мин)  ‹SRN140›
+   15:54→18:56  BRE/EDDW → OMR/LROD  (181мин)  ‹SRN141›
 SP-KPK  [SprintAir]  340 A
    — полёты не выполнял
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   18:20→21:52  EDTB → MAD/LEMD  (211мин)  ‹AEG471›
+   01:00→04:06  MAD/LEMD → FKB/EDSB  (185мин)  ‹AEG472›
+   18:01→21:16  ~FKB/EDSB [10км] → ~TOJ/LETO [9км]  (195мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   05:25→12:20  BCN/LEBL → BCN/LEBL  (415мин)  ‹VKA102›
-   16:16→19:25  BCN/LEBL → TNG/GMTT  (188мин)  ‹VKA104›
-   21:15→23:31  TNG/GMTT → BCN/LEBL  (136мин)  ‹VKA105›
+   04:31→07:05  BCN/LEBL → ~TTU/GMTN [27км]  (154мин)  ‹VKA106›
+   10:47→12:54  ~TTU/GMTN [27км] → BCN/LEBL  (126мин)  ‹VKA107›
+   17:05→23:19  ~BCN/LEBL [34км] → BCN/LEBL  (373мин)  ‹VKA109›
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   18:40→20:08  ~TNG/GMTT [32км] → ~TEV/LETL [72км]  (87мин)  ‹VKA153›
+   12:58→14:55  ~TEV/LETL [71км] → ~TTU/GMTN [23км]  (117мин)  ‹VKA154›
+   18:23→19:51  ~TNG/GMTT [28км] → ~ZAZ/LEZG [87км]  (88мин)  ‹VKA155›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 20.07.2026
+[sheets] Добавлена строка за 21.07.2026
