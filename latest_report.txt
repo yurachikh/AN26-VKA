@@ -1,10 +1,9 @@
-✈ Fleet Monitor  2026-07-23 UTC
+✈ Fleet Monitor  2026-07-24 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   07:04→08:53  ~ZAZ/LEZG [62км] → ~TNG/GMTT [15км]  (108мин)  ‹NYX391P›
-   13:22→17:15  ~TTU/GMTN [28км] → ~LEGC [35км]  (232мин)  ‹NYX391C›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ Saab 340
@@ -13,29 +12,28 @@ YL-RAG  [RAF Avia]  340 A
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   12:20→16:11  OMR/LROD → BRE/EDDW  (231мин)  ‹SRN160›
-   17:15→20:19  BRE/EDDW → OMR/LROD  (184мин)  ‹SRN161›
+   10:50→14:35  OMR/LROD → BRE/EDDW  (225мин)  ‹SRN170›
+   15:29→17:19  BRE/EDDW → WRO/EPWR  (109мин)  ‹SRN171›
 SP-KPK  [SprintAir]  340 A
    — полёты не выполнял
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   01:05→04:05  ⟨по плану⟩ MAD/LEMD → FKB/EDSB  (179мин)  ‹AEG472›
-   18:05→20:17  ~RHST [4км] → ~BIQ/LFBZ [19км]  (132мин)  ‹AEG471›
+   02:09→04:13  ⟨по плану⟩ MAD/LEMD → EDTB  (124мин)  ‹AEG472›
+   18:23→22:06  ~EDTB [8км] → TOJ/LETO  (223мин)  ‹AEG471›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
-   06:30→09:02  BCN/LEBL → ~TTU/GMTN [26км]  (151мин)  ‹VKA114›
-   11:32→13:45  TNG/GMTT → BCN/LEBL  (133мин)  ‹VKA115›
-   15:27→18:06  BCN/LEBL → TNG/GMTT  (159мин)  ‹VKA116›
-   20:03→22:15  TNG/GMTT → BCN/LEBL  (131мин)  ‹VKA117›
+   12:17→15:09  BCN/LEBL → ~TTU/GMTN [44км]  (171мин)  ‹VKA150›
+   18:25→19:48  ~TNG/GMTT [32км] → ~TEV/LETL [73км]  (83мин)  ‹VKA151›
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   13:05→15:03  ~TEV/LETL [72км] → ~TTU/GMTN [32км]  (117мин)  ‹VKA158›
-   18:11→19:40  ~TNG/GMTT [28км] → ~ZAZ/LEZG [80км]  (89мин)  ‹VKA159›
+   08:23→10:31  ~ZAZ/LEZG [55км] → ~TTU/GMTN [30км]  (128мин)  ‹VKA118›
+   14:47→16:44  ~TTU/GMTN [26км] → BCN/LEBL  (116мин)  ‹VKA119›
 UR-CQV  [Vulkan Air]  An-26 B
-   — полёты не выполнял
+   07:25→08:17  EBZU → (на земле: 49.61,6.16)  (51мин)  ‹VKA900›
+   10:11→12:09  (на земле: 49.63,6.22) → LJU/LJLJ  (117мин)  ‹VKA901›
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 23.07.2026
+[sheets] Добавлена строка за 24.07.2026
