@@ -1,4 +1,28 @@
 {
+  "AEG431": {
+    "destination": {
+      "alt_feet": 123.0,
+      "alt_meters": 37.49,
+      "countryiso2": "IT",
+      "iata": "BLQ",
+      "icao": "LIPE",
+      "lat": 44.5354,
+      "location": "Bologna",
+      "lon": 11.2887,
+      "name": "Bologna / Borgo Panigale Airport"
+    },
+    "origin": {
+      "alt_feet": 408.0,
+      "alt_meters": 124.36,
+      "countryiso2": "DE",
+      "iata": "FKB",
+      "icao": "EDSB",
+      "lat": 48.7794,
+      "location": "Baden-Baden",
+      "lon": 8.0805,
+      "name": "Karlsruhe Baden-Baden Airport"
+    }
+  },
   "AEG471": null,
   "AEG472": {
     "destination": {
@@ -125,6 +149,7 @@
   "NYX392C": null,
   "NYX393C": null,
   "NYX393P": null,
+  "NYX394C": null,
   "NYX397D": null,
   "NYX397P": null,
   "NYX398D": null,
@@ -321,6 +346,30 @@
     }
   },
   "TDR820": null,
+  "TDR822": {
+    "destination": {
+      "alt_feet": 278.0,
+      "alt_meters": 84.73,
+      "countryiso2": "HR",
+      "iata": "RJK",
+      "icao": "LDRI",
+      "lat": 45.2169,
+      "location": "Rijeka",
+      "lon": 14.5703,
+      "name": "Rijeka Airport"
+    },
+    "origin": {
+      "alt_feet": 527.0,
+      "alt_meters": 160.63,
+      "countryiso2": "HR",
+      "iata": "DBV",
+      "icao": "LDDU",
+      "lat": 42.561401,
+      "location": "Dubrovnik",
+      "lon": 18.2682,
+      "name": "Dubrovnik Airport"
+    }
+  },
   "TDR9811": null,
   "VKA100": null,
   "VKA101": null,
@@ -343,6 +392,8 @@
   "VKA120": null,
   "VKA121": null,
   "VKA123": null,
+  "VKA124": null,
+  "VKA125": null,
   "VKA130": null,
   "VKA131": null,
   "VKA132": null,
@@ -366,6 +417,7 @@
   "VKA159": null,
   "VKA160": null,
   "VKA161": null,
+  "VKA162": null,
   "VKA164": null,
   "VKA165": null,
   "VKA166": null,
