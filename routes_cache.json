@@ -23,6 +23,30 @@
       "name": "Karlsruhe Baden-Baden Airport"
     }
   },
+  "AEG432": {
+    "destination": {
+      "alt_feet": 408.0,
+      "alt_meters": 124.36,
+      "countryiso2": "DE",
+      "iata": "FKB",
+      "icao": "EDSB",
+      "lat": 48.7794,
+      "location": "Baden-Baden",
+      "lon": 8.0805,
+      "name": "Karlsruhe Baden-Baden Airport"
+    },
+    "origin": {
+      "alt_feet": 123.0,
+      "alt_meters": 37.49,
+      "countryiso2": "IT",
+      "iata": "BLQ",
+      "icao": "LIPE",
+      "lat": 44.5354,
+      "location": "Bologna",
+      "lon": 11.2887,
+      "name": "Bologna / Borgo Panigale Airport"
+    }
+  },
   "AEG471": null,
   "AEG472": {
     "destination": {
@@ -150,6 +174,8 @@
   "NYX393C": null,
   "NYX393P": null,
   "NYX394C": null,
+  "NYX395C": null,
+  "NYX395P": null,
   "NYX397D": null,
   "NYX397P": null,
   "NYX398D": null,
@@ -394,6 +420,8 @@
   "VKA123": null,
   "VKA124": null,
   "VKA125": null,
+  "VKA126": null,
+  "VKA127": null,
   "VKA130": null,
   "VKA131": null,
   "VKA132": null,
@@ -418,6 +446,7 @@
   "VKA160": null,
   "VKA161": null,
   "VKA162": null,
+  "VKA163": null,
   "VKA164": null,
   "VKA165": null,
   "VKA166": null,
@@ -426,6 +455,8 @@
   "VKA171": null,
   "VKA172": null,
   "VKA173": null,
+  "VKA190": null,
+  "VKA191": null,
   "VKA196": null,
   "VKA197": null,
   "VKA198": null,
