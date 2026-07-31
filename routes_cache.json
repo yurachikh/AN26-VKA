@@ -176,6 +176,7 @@
   "NYX394C": null,
   "NYX395C": null,
   "NYX395P": null,
+  "NYX396P": null,
   "NYX397D": null,
   "NYX397P": null,
   "NYX398D": null,
@@ -347,6 +348,30 @@
   "SRN771P": null,
   "SRN780P": null,
   "SRN781": null,
+  "SRN900": {
+    "destination": {
+      "alt_feet": 1487.0,
+      "alt_meters": 453.24,
+      "countryiso2": "DE",
+      "iata": "MUC",
+      "icao": "EDDM",
+      "lat": 48.353802,
+      "location": "Munich",
+      "lon": 11.7861,
+      "name": "Munich International Airport"
+    },
+    "origin": {
+      "alt_feet": 659.0,
+      "alt_meters": 200.86,
+      "countryiso2": "BE",
+      "iata": "LGG",
+      "icao": "EBLG",
+      "lat": 50.637402,
+      "location": "Liège",
+      "lon": 5.44322,
+      "name": "Liège Airport"
+    }
+  },
   "TDR818": {
     "destination": {
       "alt_feet": 290.0,
@@ -422,6 +447,8 @@
   "VKA125": null,
   "VKA126": null,
   "VKA127": null,
+  "VKA128": null,
+  "VKA129": null,
   "VKA130": null,
   "VKA131": null,
   "VKA132": null,
@@ -457,6 +484,7 @@
   "VKA173": null,
   "VKA190": null,
   "VKA191": null,
+  "VKA192": null,
   "VKA196": null,
   "VKA197": null,
   "VKA198": null,
