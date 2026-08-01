@@ -372,6 +372,30 @@
       "name": "Liège Airport"
     }
   },
+  "TDR815": {
+    "destination": {
+      "alt_feet": 79.0,
+      "alt_meters": 24.08,
+      "countryiso2": "HR",
+      "iata": "SPU",
+      "icao": "LDSP",
+      "lat": 43.538898,
+      "location": "Split",
+      "lon": 16.298,
+      "name": "Split Airport"
+    },
+    "origin": {
+      "alt_feet": 290.0,
+      "alt_meters": 88.39,
+      "countryiso2": "HR",
+      "iata": "OSI",
+      "icao": "LDOS",
+      "lat": 45.4627,
+      "location": "Osijek",
+      "lon": 18.8102,
+      "name": "Osijek Airport"
+    }
+  },
   "TDR818": {
     "destination": {
       "alt_feet": 290.0,
@@ -482,6 +506,7 @@
   "VKA171": null,
   "VKA172": null,
   "VKA173": null,
+  "VKA186": null,
   "VKA190": null,
   "VKA191": null,
   "VKA192": null,
