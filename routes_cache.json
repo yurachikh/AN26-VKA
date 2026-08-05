@@ -131,6 +131,7 @@
   "MTL309C": null,
   "MTL309P": null,
   "MTL310C": null,
+  "MTL312C": null,
   "MTL312P": null,
   "MTL371P": null,
   "MTL371R": null,
@@ -186,6 +187,7 @@
   "NYX398P": null,
   "NYX399C": null,
   "NYX399D": null,
+  "NYX399P": null,
   "SAR1956": {
     "destination": {
       "alt_feet": 489.0,
@@ -237,6 +239,7 @@
   "SRN110": null,
   "SRN111": null,
   "SRN112": null,
+  "SRN120": null,
   "SRN121": null,
   "SRN130": null,
   "SRN131": null,
@@ -512,6 +515,9 @@
   "VKA171": null,
   "VKA172": null,
   "VKA173": null,
+  "VKA174": null,
+  "VKA176": null,
+  "VKA177": null,
   "VKA186": null,
   "VKA187": null,
   "VKA190": null,
