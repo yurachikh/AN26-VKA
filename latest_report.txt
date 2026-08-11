@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-08-09 UTC
+✈ Fleet Monitor  2026-08-10 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -14,11 +14,12 @@ YL-RAL  [RAF Avia]  340 A
 SP-KPR  [SprintAir]  340 A
    — полёты не выполнял
 SP-KPK  [SprintAir]  340 A
-   — полёты не выполнял
+   03:48→06:05  CPH/EKCH → AES/ENAL  (137мин)  ‹SRN3272›
+   16:06→18:02  AES/ENAL → CPH/EKCH  (115мин)  ‹SRN3273›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   — полёты не выполнял
+   19:23→20:45  FKB/EDSB → BLQ/LIPE  (82мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -27,8 +28,8 @@ UR-CQD  [Vulkan Air]  An-26 B
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
-   — полёты не выполнял
+   15:02→17:57  BCN/LEBL → HHN/EDFH  (174мин)  ‹VKA908›
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 09.08.2026
+[sheets] Добавлена строка за 10.08.2026
