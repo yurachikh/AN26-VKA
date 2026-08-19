@@ -72,6 +72,30 @@
       "name": "Madrid Barajas International Airport"
     }
   },
+  "AEG7003": {
+    "destination": {
+      "alt_feet": 179.0,
+      "alt_meters": 54.56,
+      "countryiso2": "FI",
+      "iata": "HEL",
+      "icao": "EFHK",
+      "lat": 60.3172,
+      "location": "Helsinki",
+      "lon": 24.963301,
+      "name": "Helsinki Vantaa Airport"
+    },
+    "origin": {
+      "alt_feet": 131.0,
+      "alt_meters": 39.93,
+      "countryiso2": "EE",
+      "iata": "TLL",
+      "icao": "EETN",
+      "lat": 59.4133,
+      "location": "Tallinn",
+      "lon": 24.8328,
+      "name": "Tallinn Airport"
+    }
+  },
   "MTL247C": null,
   "MTL247P": null,
   "MTL271P": null,
@@ -138,6 +162,8 @@
   "MTL313P": null,
   "MTL315C": null,
   "MTL315P": null,
+  "MTL316C": null,
+  "MTL316P": null,
   "MTL371P": null,
   "MTL371R": null,
   "MTL372P": null,
@@ -253,6 +279,7 @@
   "SRN130": null,
   "SRN131": null,
   "SRN132": null,
+  "SRN135": null,
   "SRN136": null,
   "SRN137": null,
   "SRN140": null,

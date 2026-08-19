@@ -1,38 +1,38 @@
-✈ Fleet Monitor  2026-08-17 UTC
+✈ Fleet Monitor  2026-08-18 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   15:25→17:37  EBZU → POZ/EPPO  (132мин)  ‹NYX374P›
+   04:10→06:45  POZ/EPPO → EBZU  (154мин)  ‹NYX374C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   09:02→10:02  BTS/LZIB → ~EPKS [34км]  (60мин)  ‹MTL315P›
-   13:16→15:42  ~POZ/EPPO [45км] → OST/EBOS  (145мин)  ‹MTL315C›
+   06:35→09:44  ~OST/EBOS [20км] → ~LEGT [12км]  (189мин)  ‹MTL316P›
+   13:20→17:37  ~AGP/LEMG [35км] → STR/EDDS  (257мин)  ‹MTL316C›
 YL-RAL  [RAF Avia]  340 A
-   08:18→08:31  ⟨по плану⟩ OSI/LDOS → LDPM  (12мин)  ‹TDR815›
-   12:19→12:42  ⟨по плану⟩ SPU/LDSP → ⟨по плану⟩ OSI/LDOS  (22мин)  ‹TDR818›
+   18:08→18:21  ~LDRG [23км] → ~LDZB [30км]  (12мин)  ‹TDR820›
 SP-KPR  [SprintAir]  340 A
-   11:02→12:54  WRO/EPWR → NUE/EDDN  (111мин)  ‹SRN120›
-   14:23→23:49  NUE/EDDN → WRO/EPWR  (566мин)  ‹SRN122›
+   19:31→21:43  WRO/EPWR → EDRZ  (132мин)  ‹SRN135›
+   22:41→23:59  EDRZ → ~LOAD [21км]  (78мин)  ‹SRN136›
 SP-KPK  [SprintAir]  340 A
-   04:04→06:38  CPH/EKCH → AES/ENAL  (154мин)  ‹SRN3272›
-   16:39→18:45  AES/ENAL → CPH/EKCH  (125мин)  ‹SRN3273›
+   05:23→07:50  CPH/EKCH → AES/ENAL  (147мин)  ‹SRN3272›
+   16:20→18:25  AES/ENAL → CPH/EKCH  (125мин)  ‹SRN3273›
 ES-LSA  [Airest]  340 A
-   — полёты не выполнял
+   16:36→16:54  TLL/EETN → HEL/EFHK  (17мин)  ‹AEG7003›
 ES-LSG  [Airest]  340 A
-   19:10→20:20  ⟨по плану⟩ FKB/EDSB → ⟨по плану⟩ BLQ/LIPE  (69мин)  ‹AEG431›
+   02:35→04:17  BLQ/LIPE → EDTB  (102мин)  ‹AEG432›
+   19:15→20:28  FKB/EDSB → ⟨по плану⟩ BLQ/LIPE  (73мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   07:10→11:00  SNN/EINN → ~KEF/BIKF [25км]  (229мин)  ‹VKA800›
+   — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 17.08.2026
+[sheets] Добавлена строка за 18.08.2026
