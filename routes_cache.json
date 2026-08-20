@@ -96,6 +96,30 @@
       "name": "Tallinn Airport"
     }
   },
+  "AEG7004": {
+    "destination": {
+      "alt_feet": 131.0,
+      "alt_meters": 39.93,
+      "countryiso2": "EE",
+      "iata": "TLL",
+      "icao": "EETN",
+      "lat": 59.4133,
+      "location": "Tallinn",
+      "lon": 24.8328,
+      "name": "Tallinn Airport"
+    },
+    "origin": {
+      "alt_feet": 179.0,
+      "alt_meters": 54.56,
+      "countryiso2": "FI",
+      "iata": "HEL",
+      "icao": "EFHK",
+      "lat": 60.3172,
+      "location": "Helsinki",
+      "lon": 24.963301,
+      "name": "Helsinki Vantaa Airport"
+    }
+  },
   "MTL247C": null,
   "MTL247P": null,
   "MTL271P": null,
@@ -164,6 +188,8 @@
   "MTL315P": null,
   "MTL316C": null,
   "MTL316P": null,
+  "MTL318C": null,
+  "MTL318P": null,
   "MTL371P": null,
   "MTL371R": null,
   "MTL372P": null,
@@ -284,6 +310,7 @@
   "SRN137": null,
   "SRN140": null,
   "SRN141": null,
+  "SRN145": null,
   "SRN150": null,
   "SRN151": null,
   "SRN155": null,

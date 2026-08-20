@@ -1,28 +1,30 @@
-✈ Fleet Monitor  2026-08-18 UTC
+✈ Fleet Monitor  2026-08-19 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   04:10→06:45  POZ/EPPO → EBZU  (154мин)  ‹NYX374C›
+   01:32→05:12  EBZU → VGO/LEVX  (220мин)  ‹NYX375P›
+   07:00→12:00  VGO/LEVX → DEB/LHDC  (299мин)  ‹NYX375C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   06:35→09:44  ~OST/EBOS [20км] → ~LEGT [12км]  (189мин)  ‹MTL316P›
-   13:20→17:37  ~AGP/LEMG [35км] → STR/EDDS  (257мин)  ‹MTL316C›
+   11:02→13:22  STR/EDDS → ~LFDH [18км]  (140мин)  ‹MTL318P›
+   17:16→18:40  ~LFEA [62км] → BHX/EGBB  (83мин)  ‹MTL318C›
 YL-RAL  [RAF Avia]  340 A
-   18:08→18:21  ~LDRG [23км] → ~LDZB [30км]  (12мин)  ‹TDR820›
+   — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   19:31→21:43  WRO/EPWR → EDRZ  (132мин)  ‹SRN135›
-   22:41→23:59  EDRZ → ~LOAD [21км]  (78мин)  ‹SRN136›
+   (-1д) 22:41→00:28  EDRZ → QGY/LHPR  (107мин)  ‹SRN136›
+   01:21→02:41  QGY/LHPR → WRO/EPWR  (80мин)  ‹SRN137›
+   22:18→23:59  WRO/EPWR → ~GRZ/LOWG [7км]  (101мин)  ‹SRN145›
 SP-KPK  [SprintAir]  340 A
-   05:23→07:50  CPH/EKCH → AES/ENAL  (147мин)  ‹SRN3272›
-   16:20→18:25  AES/ENAL → CPH/EKCH  (125мин)  ‹SRN3273›
+   05:25→07:46  CPH/EKCH → AES/ENAL  (141мин)  ‹SRN3272›
+   16:14→18:22  AES/ENAL → CPH/EKCH  (128мин)  ‹SRN3273›
 ES-LSA  [Airest]  340 A
-   16:36→16:54  TLL/EETN → HEL/EFHK  (17мин)  ‹AEG7003›
+   06:14→06:29  HEL/EFHK → ⟨по плану⟩ TLL/EETN  (14мин)  ‹AEG7004›
 ES-LSG  [Airest]  340 A
-   02:35→04:17  BLQ/LIPE → EDTB  (102мин)  ‹AEG432›
-   19:15→20:28  FKB/EDSB → ⟨по плану⟩ BLQ/LIPE  (73мин)  ‹AEG431›
+   02:46→04:30  ⟨по плану⟩ BLQ/LIPE → EDTB  (104мин)  ‹AEG432›
+   19:05→20:24  ⟨по плану⟩ FKB/EDSB → ⟨по плану⟩ BLQ/LIPE  (78мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -35,4 +37,4 @@ UR-CQV  [Vulkan Air]  An-26 B
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 18.08.2026
+[sheets] Добавлена строка за 19.08.2026
