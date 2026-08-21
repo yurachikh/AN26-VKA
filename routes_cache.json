@@ -190,6 +190,7 @@
   "MTL316P": null,
   "MTL318C": null,
   "MTL318P": null,
+  "MTL320C": null,
   "MTL371P": null,
   "MTL371R": null,
   "MTL372P": null,
@@ -203,6 +204,7 @@
   "NYX374C": null,
   "NYX374P": null,
   "NYX375C": null,
+  "NYX375D": null,
   "NYX375P": null,
   "NYX376C": null,
   "NYX376P": null,
@@ -494,6 +496,7 @@
       "name": "Split Airport"
     }
   },
+  "TDR819": null,
   "TDR820": null,
   "TDR822": {
     "destination": {
