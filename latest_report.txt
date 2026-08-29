@@ -1,38 +1,38 @@
-✈ Fleet Monitor  2026-08-27 UTC
+✈ Fleet Monitor  2026-08-28 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   06:49→08:54  OSR/LKMT → BGY/LIME  (125мин)  ‹NYX376P›
-   13:24→18:01  BGY/LIME → MAD/LEMD  (276мин)  ‹NYX376C›
+   07:34→10:23  MAD/LEMD → HHN/EDFH  (169мин)  ‹NYX377P›
+   12:23→18:29  HHN/EDFH → ~XRY/LEJR [54км]  (365мин)  ‹NYX377C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   (-1д) 22:29→00:16  MAN/EGCC → ~EDRK [19км]  (107мин)  ‹MTL322P›
-   18:07→23:27  ~EDRH [16км] → ~LECU [6км]  (320мин)  ‹MTL322C›
+   15:31→20:09  ~LECU [19км] → ~EDEM [25км]  (277мин)  ‹MTL323C›
 YL-RAL  [RAF Avia]  340 A
-   14:02→18:30  ~LDSH [45км] → ~LJBL [8км]  (267мин)  ‹TDR820›
+   08:03→08:17  ⟨по плану⟩ OSI/LDOS → ⟨по плану⟩ SPU/LDSP  (13мин)  ‹TDR815›
 SP-KPR  [SprintAir]  340 A
-   (-1д) 22:17→02:00  EPBD → LPL/EGGP  (222мин)  ‹SRN176›
-   03:16→06:53  LPL/EGGP → EPBD  (217мин)  ‹SRN177›
+   04:09→07:28  BZG/EPBY → PSR/LIBP  (199мин)  ‹SRN131›
+   18:42→20:45  PSR/LIBP → TUN/DTTA  (123мин)  ‹SRN132›
+   22:35→23:59  TUN/DTTA → ~SOZ/LFKS [50км]  (84мин)  ‹SRN133›
 SP-KPK  [SprintAir]  340 A
-   05:21→06:31  CPH/EKCH → KRS/ENCN  (70мин)  ‹SRN3150›
-   17:56→19:07  KRS/ENCN → CPH/EKCH  (70мин)  ‹SRN3151›
+   05:22→06:37  CPH/EKCH → KRS/ENCN  (75мин)  ‹SRN3150›
+   18:12→19:33  KRS/ENCN → CPH/EKCH  (81мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   — полёты не выполнял
+   19:20→20:48  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (87мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   14:42→17:35  BFS/EGAA → HHN/EDFH  (172мин)  ‹VKA152›
+   — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 27.08.2026
+[sheets] Добавлена строка за 28.08.2026
