@@ -1,28 +1,25 @@
-✈ Fleet Monitor  2026-08-28 UTC
+✈ Fleet Monitor  2026-08-29 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   07:34→10:23  MAD/LEMD → HHN/EDFH  (169мин)  ‹NYX377P›
-   12:23→18:29  HHN/EDFH → ~XRY/LEJR [54км]  (365мин)  ‹NYX377C›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   15:31→20:09  ~LECU [19км] → ~EDEM [25км]  (277мин)  ‹MTL323C›
+   — полёты не выполнял
 YL-RAL  [RAF Avia]  340 A
-   08:03→08:17  ⟨по плану⟩ OSI/LDOS → ⟨по плану⟩ SPU/LDSP  (13мин)  ‹TDR815›
+   — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   04:09→07:28  BZG/EPBY → PSR/LIBP  (199мин)  ‹SRN131›
-   18:42→20:45  PSR/LIBP → TUN/DTTA  (123мин)  ‹SRN132›
-   22:35→23:59  TUN/DTTA → ~SOZ/LFKS [50км]  (84мин)  ‹SRN133›
+   (-1д) 22:35→02:10  TUN/DTTA → HHN/EDFH  (214мин)  ‹SRN133›
+   03:00→04:43  HHN/EDFH → WRO/EPWR  (102мин)  ‹SRN134›
 SP-KPK  [SprintAir]  340 A
-   05:22→06:37  CPH/EKCH → KRS/ENCN  (75мин)  ‹SRN3150›
-   18:12→19:33  KRS/ENCN → CPH/EKCH  (81мин)  ‹SRN3151›
+   — полёты не выполнял
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   19:20→20:48  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (87мин)  ‹AEG431›
+   02:35→04:10  ⟨по плану⟩ BLQ/LIPE → EDTB  (94мин)  ‹AEG432›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -33,6 +30,6 @@ UR-CQE  [Vulkan Air]  Antonov An-26B
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   — полёты не выполнял
+   08:48→12:11  PZY/LZPP → IST/LTFM  (203мин)  ‹VKA209›
 ────────────────────────────────────
-[sheets] Добавлена строка за 28.08.2026
+[sheets] Добавлена строка за 29.08.2026
