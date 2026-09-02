@@ -1,39 +1,38 @@
-✈ Fleet Monitor  2026-08-31 UTC
+✈ Fleet Monitor  2026-09-01 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   08:19→15:06  ~SVQ/LEZL [12км] → DEB/LHDC  (406мин)  ‹NYX378C›
-   16:23→20:34  DEB/LHDC → GRO/LEGE  (250мин)  ‹NYX378D›
+   19:33→22:01  ~GRO/LEGE [10км] → TNG/GMTT  (148мин)  ‹NYX379P›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   08:06→13:58  ~EDGW [7км] → ~LEEV [29км]  (351мин)  ‹MTL326P›
-   19:10→21:57  ~LEMT [18км] → ~EDRK [18км]  (167мин)  ‹MTL326C›
+   10:14→10:50  ~HHN/EDFH [12км] → STR/EDDS  (36мин)  ‹MTL324P›
+   13:08→18:15  STR/EDDS → ~LEEV [33км]  (306мин)  ‹MTL324C›
 YL-RAL  [RAF Avia]  340 A
-   12:20→12:37  ⟨по плану⟩ SPU/LDSP → ⟨по плану⟩ OSI/LDOS  (16мин)  ‹TDR818›
+   12:27→18:17  ⟨по плану⟩ RJK/LDRI → ⟨по плану⟩ DBV/LDDU  (349мин)  ‹TDR821›
 SP-KPR  [SprintAir]  340 A
-   12:09→15:34  WRO/EPWR → EBZU  (204мин)  ‹SRN110›
-   16:32→18:19  EBZU → BLL/EKBI  (107мин)  ‹SRN111›
-   19:50→21:25  BLL/EKBI → NYO/ESKN  (94мин)  ‹SRN111›
+   22:12→23:59  NYO/ESKN → ~EPPB [7км]  (107мин)  ‹SRN125›
 SP-KPK  [SprintAir]  340 A
-   03:36→04:53  CPH/EKCH → KRS/ENCN  (76мин)  ‹SRN3150›
-   18:04→19:14  KRS/ENCN → CPH/EKCH  (69мин)  ‹SRN3151›
+   05:31→06:45  CPH/EKCH → KRS/ENCN  (74мин)  ‹SRN3150›
+   18:01→19:08  KRS/ENCN → CPH/EKCH  (66мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
-   14:11→18:22  TLL/EETN → EBZU  (250мин)  ‹AEG190C›
+   09:07→16:08  ~OST/EBOS [21км] → ~EDEM [22км]  (420мин)  ‹AEG191P›
 ES-LSG  [Airest]  340 A
-   19:09→20:28  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (79мин)  ‹AEG431›
+   02:35→04:01  ⟨по плану⟩ BLQ/LIPE → EDTB  (86мин)  ‹AEG432›
+   19:02→20:22  FKB/EDSB → BLQ/LIPE  (79мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   — полёты не выполнял
+   09:06→11:45  HHN/EDFH → BOD/LFBD  (159мин)  ‹VKA181›
+   13:20→16:34  BOD/LFBD → LIS/LPPT  (193мин)  ‹VKA181›
+   18:52→20:30  LIS/LPPT → ~LERE [23км]  (97мин)  ‹VKA182›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 31.08.2026
