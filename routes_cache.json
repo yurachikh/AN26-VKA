@@ -1,6 +1,7 @@
 {
   "AEG190C": null,
   "AEG191P": null,
+  "AEG192P": null,
   "AEG431": {
     "destination": {
       "alt_feet": 123.0,
@@ -228,6 +229,7 @@
   "NYX377P": null,
   "NYX378C": null,
   "NYX378D": null,
+  "NYX379C": null,
   "NYX379P": null,
   "NYX380C": null,
   "NYX380P": null,
@@ -323,6 +325,7 @@
   "SRN121": null,
   "SRN122": null,
   "SRN125": null,
+  "SRN126": null,
   "SRN130": null,
   "SRN131": null,
   "SRN132": null,
