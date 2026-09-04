@@ -2,6 +2,31 @@
   "AEG190C": null,
   "AEG191P": null,
   "AEG192P": null,
+  "AEG193P": null,
+  "AEG401": {
+    "destination": {
+      "alt_feet": 741.0,
+      "alt_meters": 225.86,
+      "countryiso2": "SE",
+      "iata": "JKG",
+      "icao": "ESGJ",
+      "lat": 57.757599,
+      "location": "Jönköping",
+      "lon": 14.0687,
+      "name": "Jönköping Airport"
+    },
+    "origin": {
+      "alt_feet": 408.0,
+      "alt_meters": 124.36,
+      "countryiso2": "DE",
+      "iata": "FKB",
+      "icao": "EDSB",
+      "lat": 48.7794,
+      "location": "Baden-Baden",
+      "lon": 8.0805,
+      "name": "Karlsruhe Baden-Baden Airport"
+    }
+  },
   "AEG431": {
     "destination": {
       "alt_feet": 123.0,
@@ -208,6 +233,7 @@
   "MTL325P": null,
   "MTL326C": null,
   "MTL326P": null,
+  "MTL328P": null,
   "MTL371P": null,
   "MTL371R": null,
   "MTL372P": null,

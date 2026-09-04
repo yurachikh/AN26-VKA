@@ -1,40 +1,38 @@
-✈ Fleet Monitor  2026-09-02 UTC
+✈ Fleet Monitor  2026-09-03 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   01:06→05:08  ~TNG/GMTT [16км] → HHN/EDFH  (242мин)  ‹NYX379C›
-   19:14→21:03  HHN/EDFH → QGY/LHPR  (109мин)  ‹NYX380P›
-   21:39→23:40  QGY/LHPR → HAJ/EDDV  (121мин)  ‹NYX380C›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   — полёты не выполнял
+   02:36→11:27  ~LEMT [18км] → ~AGP/LEMG [26км]  (531мин)  ‹MTL328P›
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   00:00→00:46  ~EPPB [10км] → OSR/LKMT  (45мин)  ‹SRN125›
-   01:53→04:43  OSR/LKMT → NYO/ESKN  (169мин)  ‹SRN126›
-   15:57→19:59  NYO/ESKN → LYS/LFLL  (242мин)  ‹SRN130›
-   21:36→23:59  LYS/LFLL → ~LEMX [34км]  (143мин)  ‹SRN130›
+   (-1д) 21:36→01:07  LYS/LFLL → ~TTU/GMTN [27км]  (211мин)  ‹SRN130›
+   13:10→16:20  ~OZP/LEMO [19км] → LYS/LFLL  (190мин)  ‹SRN131›
+   17:50→20:54  LYS/LFLL → QGY/LHPR  (184мин)  ‹SRN131›
 SP-KPK  [SprintAir]  340 A
-   05:32→06:54  CPH/EKCH → KRS/ENCN  (81мин)  ‹SRN3150›
-   17:57→19:01  KRS/ENCN → CPH/EKCH  (63мин)  ‹SRN3151›
+   05:29→06:47  CPH/EKCH → KRS/ENCN  (77мин)  ‹SRN3150›
+   17:51→18:59  KRS/ENCN → CPH/EKCH  (67мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
-   09:30→17:23  ~EDGW [6км] → ~KSF/EDVK [28км]  (473мин)  ‹AEG192P›
+   07:14→14:54  ~EDGW [9км] → ~KSF/EDVK [29км]  (460мин)  ‹AEG193P›
 ES-LSG  [Airest]  340 A
-   02:27→04:01  BLQ/LIPE → EDTB  (93мин)  ‹AEG432›
+   19:56→23:59  FKB/EDSB → ⟨по плану⟩ JKG/ESGJ  (243мин)  ‹AEG401›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   13:56→17:40  VLC/LEVC → BDS/LIBR  (223мин)  ‹VKA152›
+   07:36→12:09  BDS/LIBR → (на земле: 50.63,5.44)  (272мин)  ‹VKA153›
+   13:33→16:31  (на земле: 50.63,5.43) → BFS/EGAA  (178мин)  ‹VKA153›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 02.09.2026
+[sheets] Добавлена строка за 03.09.2026
