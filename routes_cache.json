@@ -3,6 +3,7 @@
   "AEG191P": null,
   "AEG192P": null,
   "AEG193P": null,
+  "AEG194P": null,
   "AEG401": {
     "destination": {
       "alt_feet": 741.0,
@@ -233,6 +234,7 @@
   "MTL325P": null,
   "MTL326C": null,
   "MTL326P": null,
+  "MTL328C": null,
   "MTL328P": null,
   "MTL371P": null,
   "MTL371R": null,
@@ -259,6 +261,7 @@
   "NYX379P": null,
   "NYX380C": null,
   "NYX380P": null,
+  "NYX381C": null,
   "NYX381D": null,
   "NYX381P": null,
   "NYX382C": null,

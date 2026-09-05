@@ -1,38 +1,37 @@
-✈ Fleet Monitor  2026-09-03 UTC
+✈ Fleet Monitor  2026-09-04 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   — полёты не выполнял
+   10:47→11:56  HAJ/EDDV → STR/EDDS  (69мин)  ‹NYX381P›
+   13:10→19:41  STR/EDDS → ~XRY/LEJR [45км]  (391мин)  ‹NYX381C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   02:36→11:27  ~LEMT [18км] → ~AGP/LEMG [26км]  (531мин)  ‹MTL328P›
+   05:05→09:45  ~LECU [4км] → HAJ/EDDV  (280мин)  ‹MTL328C›
 YL-RAL  [RAF Avia]  340 A
-   — полёты не выполнял
+   12:53→13:18  ⟨по плану⟩ SPU/LDSP → ⟨по плану⟩ OSI/LDOS  (24мин)  ‹TDR818›
 SP-KPR  [SprintAir]  340 A
-   (-1д) 21:36→01:07  LYS/LFLL → ~TTU/GMTN [27км]  (211мин)  ‹SRN130›
-   13:10→16:20  ~OZP/LEMO [19км] → LYS/LFLL  (190мин)  ‹SRN131›
-   17:50→20:54  LYS/LFLL → QGY/LHPR  (184мин)  ‹SRN131›
+   10:07→12:57  QGY/LHPR → BRE/EDDW  (170мин)  ‹SRN140›
+   14:03→15:30  BRE/EDDW → WRO/EPWR  (86мин)  ‹SRN141›
 SP-KPK  [SprintAir]  340 A
-   05:29→06:47  CPH/EKCH → KRS/ENCN  (77мин)  ‹SRN3150›
-   17:51→18:59  KRS/ENCN → CPH/EKCH  (67мин)  ‹SRN3151›
+   05:25→06:48  CPH/EKCH → KRS/ENCN  (82мин)  ‹SRN3150›
+   17:57→19:08  KRS/ENCN → CPH/EKCH  (71мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
-   07:14→14:54  ~EDGW [9км] → ~KSF/EDVK [29км]  (460мин)  ‹AEG193P›
+   07:07→16:24  ~EDGW [3км] → EDTB  (556мин)  ‹AEG194P›
 ES-LSG  [Airest]  340 A
-   19:56→23:59  FKB/EDSB → ⟨по плану⟩ JKG/ESGJ  (243мин)  ‹AEG401›
+   (-1д) 19:56→04:09  FKB/EDSB → EDTB  (492мин)  ‹AEG401›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   07:36→12:09  BDS/LIBR → (на земле: 50.63,5.44)  (272мин)  ‹VKA153›
-   13:33→16:31  (на земле: 50.63,5.43) → BFS/EGAA  (178мин)  ‹VKA153›
+   — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 03.09.2026
+[sheets] Добавлена строка за 04.09.2026
