@@ -149,6 +149,7 @@
       "name": "Helsinki Vantaa Airport"
     }
   },
+  "AEG9001": null,
   "MTL247C": null,
   "MTL247P": null,
   "MTL271P": null,
@@ -236,6 +237,8 @@
   "MTL326P": null,
   "MTL328C": null,
   "MTL328P": null,
+  "MTL329C": null,
+  "MTL329P": null,
   "MTL371P": null,
   "MTL371R": null,
   "MTL372P": null,
@@ -378,6 +381,8 @@
   "SRN175": null,
   "SRN176": null,
   "SRN177": null,
+  "SRN180": null,
+  "SRN181": null,
   "SRN190": null,
   "SRN191": null,
   "SRN192": null,
