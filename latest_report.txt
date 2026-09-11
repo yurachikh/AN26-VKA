@@ -1,40 +1,42 @@
-✈ Fleet Monitor  2026-09-09 UTC
+✈ Fleet Monitor  2026-09-10 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   — полёты не выполнял
+   12:16→17:13  ~TTU/GMTN [29км] → QGY/LHPR  (297мин)  ‹NYX382C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
    — полёты не выполнял
 YL-RAL  [RAF Avia]  340 A
-   — полёты не выполнял
+   11:19→12:32  ~LDRO [49км] → ~LSZ/LDLO [34км]  (72мин)  ‹TDR819›
+   18:09→18:23  ~RJK/LDRI [10км] → ~LDZL [39км]  (14мин)  ‹TDR820›
 SP-KPR  [SprintAir]  340 A
-   04:55→07:53  NYO/ESKN → WRO/EPWR  (177мин)  ‹SRN192›
-   12:04→16:50  WRO/EPWR → TUN/DTTA  (286мин)  ‹SRN120›
-   18:58→23:16  TUN/DTTA → KTW/EPKT  (257мин)  ‹SRN121›
+   17:27→18:10  KTW/EPKT → OSR/LKMT  (42мин)  ‹SRN130›
+   21:42→23:39  OSR/LKMT → PAD/EDLP  (117мин)  ‹SRN131›
 SP-KPK  [SprintAir]  340 A
-   (-1д) 21:48→01:40  CPH/EKCH → LYS/LFLL  (231мин)  ‹SRN110›
-   02:34→06:07  LYS/LFLL → VGO/LEVX  (213мин)  ‹SRN110›
-   20:51→23:59  VGO/LEVX → ~LFQN [33км]  (188мин)  ‹SRN111›
+   (-1д) 20:51→00:41  VGO/LEVX → EBZU  (230мин)  ‹SRN111›
+   01:13→04:29  EBZU → NYO/ESKN  (196мин)  ‹SRN111›
+   05:08→06:14  NYO/ESKN → CPH/EKCH  (65мин)  ‹SRN112›
 ES-LSA  [Airest]  340 A
-   09:05→09:58  ATH/LGAV → SKG/LGTS  (52мин)  ‹MID032›
-   16:42→17:42  SKG/LGTS → ATH/LGAV  (60мин)  ‹MID033›
+   09:29→10:22  ATH/LGAV → SKG/LGTS  (53мин)  ‹MID032›
+   16:04→17:03  SKG/LGTS → ATH/LGAV  (58мин)  ‹MID033›
 ES-LSG  [Airest]  340 A
-   01:45→03:58  ⟨по плану⟩ MAD/LEMD → EDTB  (132мин)  ‹AEG472›
-   18:05→21:03  FKB/EDSB → MAD/LEMD  (177мин)  ‹AEG471›
+   00:45→04:00  MAD/LEMD → FKB/EDSB  (194мин)  ‹AEG472›
+   19:03→20:24  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (81мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   — полёты не выполнял
+   13:41→16:08  BFS/EGAA → (на земле: 49.61,6.18)  (147мин)  ‹VKA198›
+   18:23→22:22  (на земле: 49.64,6.23) → OPO/LPPR  (239мин)  ‹VKA199›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   22:38→23:59  ~LW75 [32км] → ~PSR/LIBP [89км]  (81мин)  ‹VKA702›
+   (-1д) 22:38→06:38  ~LW75 [32км] → VGO/LEVX  (480мин)  ‹VKA702›
+   18:29→23:59  VGO/LEVX → ~GOA/LIMJ [38км]  (330мин)  ‹VKA701›
 ────────────────────────────────────
-[sheets] Добавлена строка за 09.09.2026
+[sheets] Добавлена строка за 10.09.2026
