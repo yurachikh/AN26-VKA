@@ -1,9 +1,10 @@
-✈ Fleet Monitor  2026-09-12 UTC
+✈ Fleet Monitor  2026-09-13 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   — полёты не выполнял
+   11:09→13:56  DEB/LHDC → HHN/EDFH  (167мин)  ‹NYX384P›
+   15:41→18:29  HHN/EDFH → ~DTTB [99км]  (168мин)  ‹NYX384C›
 ────────────────────────────────────
 
 ▸ Saab 340
@@ -18,18 +19,17 @@ SP-KPK  [SprintAir]  340 A
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   02:43→04:12  ⟨по плану⟩ BLQ/LIPE → EDTB  (89мин)  ‹AEG432›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   15:01→15:23  ~ACC/DGAA [98км] → ACC/DGAA  (22мин)  ‹VKA199›
-   16:41→16:58  ACC/DGAA → ~ACC/DGAA [95км]  (16мин)  ‹VKA199›
+   08:02→08:49  ~DLA/FKKD [51км] → ~MVX/FOGV [90км]  (46мин)  ‹VKA199›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   00:01→02:09  ~TPS/LICT [79км] → ~SKP/LWSK [10км]  (128мин)  ‹VKA163›
+   06:00→06:14  ~SKP/LWSK [3км] → ~OHD/LWOH [36км]  (13мин)  ‹VKA164›
 ────────────────────────────────────
-[sheets] Добавлена строка за 12.09.2026
+[sheets] Добавлена строка за 13.09.2026
