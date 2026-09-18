@@ -1,26 +1,25 @@
-✈ Fleet Monitor  2026-09-16 UTC
+✈ Fleet Monitor  2026-09-17 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
 ES-NTC  [NyxAir]  ATR 72-500(F)
-   05:01→09:47  HHN/EDFH → ~TNG/GMTT [35км]  (285мин)  ‹NYX386P›
-   12:49→16:42  ~ROZ/LERT [56км] → HHN/EDFH  (233мин)  ‹NYX386C›
+   07:05→10:36  HHN/EDFH → VGO/LEVX  (210мин)  ‹NYX387P›
+   12:35→17:56  VGO/LEVX → DEB/LHDC  (320мин)  ‹NYX387C›
 ────────────────────────────────────
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
    — полёты не выполнял
 YL-RAL  [RAF Avia]  340 A
-   — полёты не выполнял
+   11:28→12:45  ~LJBL [19км] → ~LSZ/LDLO [29км]  (76мин)  ‹TDR819›
 SP-KPR  [SprintAir]  340 A
-   (-1д) 21:40→02:32  OTP/LROP → GRO/LEGE  (292мин)  ‹SRN146›
-   15:53→23:59  GRO/LEGE → ~ALL/LIMG [21км]  (486мин)  ‹SRN760P›
+   (-1д) 15:53→00:29  GRO/LEGE → MXP/LIMC  (516мин)  ‹SRN760P›
 SP-KPK  [SprintAir]  340 A
-   05:28→06:45  CPH/EKCH → KRS/ENCN  (76мин)  ‹SRN3150›
-   17:41→18:47  KRS/ENCN → CPH/EKCH  (66мин)  ‹SRN3151›
+   05:35→07:03  CPH/EKCH → KRS/ENCN  (88мин)  ‹SRN3150›
+   18:01→19:11  KRS/ENCN → CPH/EKCH  (69мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
-   09:13→10:17  ATH/LGAV → SKG/LGTS  (64мин)  ‹MID032›
-   15:58→16:54  SKG/LGTS → ATH/LGAV  (55мин)  ‹MID033›
+   08:31→09:30  ATH/LGAV → SKG/LGTS  (58мин)  ‹MID032›
+   16:08→17:04  SKG/LGTS → ATH/LGAV  (55мин)  ‹MID033›
 ES-LSG  [Airest]  340 A
    — полёты не выполнял
 ────────────────────────────────────
@@ -29,10 +28,11 @@ ES-LSG  [Airest]  340 A
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   — полёты не выполнял
+   15:58→16:47  ~MVX/FOGV [60км] → ~KBI/FKKB [65км]  (48мин)  ‹VKA197›
 UR-CQV  [Vulkan Air]  An-26 B
-   12:57→13:35  ~PNA/LEPP [7км] → ~RGS/LEBG [6км]  (38мин)  ‹VKA908›
-UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
+UR-CQZ  [Vulkan Air]  AN-26
+   09:23→10:13  ~OHD/LWOH [12км] → INI/LYNI  (50мин)  ‹VKA140›
+   11:52→13:22  INI/LYNI → QGY/LHPR  (90мин)  ‹VKA141›
 ────────────────────────────────────
-[sheets] Добавлена строка за 16.09.2026
+[sheets] Добавлена строка за 17.09.2026
