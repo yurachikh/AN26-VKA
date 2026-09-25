@@ -28,6 +28,30 @@
       "name": "Karlsruhe Baden-Baden Airport"
     }
   },
+  "AEG403": {
+    "destination": {
+      "alt_feet": 408.0,
+      "alt_meters": 124.36,
+      "countryiso2": "DE",
+      "iata": "FKB",
+      "icao": "EDSB",
+      "lat": 48.7794,
+      "location": "Baden-Baden",
+      "lon": 8.0805,
+      "name": "Karlsruhe Baden-Baden Airport"
+    },
+    "origin": {
+      "alt_feet": 97.0,
+      "alt_meters": 29.57,
+      "countryiso2": "DK",
+      "iata": "EBJ",
+      "icao": "EKEB",
+      "lat": 55.525902,
+      "location": "Esbjerg",
+      "lon": 8.5534,
+      "name": "Esbjerg Airport"
+    }
+  },
   "AEG431": {
     "destination": {
       "alt_feet": 123.0,
@@ -520,6 +544,30 @@
   "SRN4912": null,
   "SRN760P": null,
   "SRN770P": null,
+  "SRN771": {
+    "destination": {
+      "alt_feet": 465.0,
+      "alt_meters": 141.73,
+      "countryiso2": "DE",
+      "iata": "LEJ",
+      "icao": "EDDP",
+      "lat": 51.4324,
+      "location": "Leipzig",
+      "lon": 12.2416,
+      "name": "Leipzig Halle Airport"
+    },
+    "origin": {
+      "alt_feet": 659.0,
+      "alt_meters": 200.86,
+      "countryiso2": "BE",
+      "iata": "LGG",
+      "icao": "EBLG",
+      "lat": 50.637402,
+      "location": "Liège",
+      "lon": 5.44322,
+      "name": "Liège Airport"
+    }
+  },
   "SRN771P": null,
   "SRN777P": null,
   "SRN780P": null,
@@ -742,6 +790,7 @@
   "VKA709": null,
   "VKA800": null,
   "VKA808": null,
+  "VKA809": null,
   "VKA900": null,
   "VKA901": null,
   "VKA908": null,
