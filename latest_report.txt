@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-09-29 UTC
+✈ Fleet Monitor  2026-09-30 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,22 +8,21 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   11:30→12:28  ~HHN/EDFH [12км] → LFFE  (58мин)  ‹MTL308P›
-   14:32→15:58  ~CDG/LFPG [8км] → MAN/EGCC  (85мин)  ‹MTL308C›
-   17:04→17:21  MAN/EGCC → LPL/EGGP  (16мин)  ‹MTL308D›
+   11:24→15:49  LPL/EGGP → ~CUF/LIMZ [19км]  (264мин)  ‹MTL335P›
+   20:44→22:33  ~FOG/LIBF [60км] → LKCL  (108мин)  ‹MTL335C›
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
    — полёты не выполнял
 SP-KPK  [SprintAir]  340 A
-   05:33→06:44  CPH/EKCH → KRS/ENCN  (70мин)  ‹SRN3150›
-   17:43→18:56  KRS/ENCN → CPH/EKCH  (72мин)  ‹SRN3151›
+   05:15→06:23  CPH/EKCH → KRS/ENCN  (67мин)  ‹SRN3150›
+   17:50→19:02  KRS/ENCN → CPH/EKCH  (71мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
-   02:21→04:03  ⟨по плану⟩ MAD/LEMD → EDTB  (101мин)  ‹AEG472›
-   17:58→21:28  EDTB → MAD/LEMD  (209мин)  ‹AEG471›
+   01:48→04:07  ⟨по плану⟩ MAD/LEMD → EDTB  (139мин)  ‹AEG472›
+   18:10→20:42  FKB/EDSB → ~LFIX [25км]  (152мин)  ‹AEG471›
 ES-LSG  [Airest]  340 A
-   00:25→04:26  ⟨по плану⟩ EBJ/EKEB → FKB/EDSB  (241мин)  ‹AEG403›
-   19:34→23:59  ⟨по плану⟩ FKB/EDSB → ⟨по плану⟩ JKG/ESGJ  (265мин)  ‹AEG401›
+   (-1д) 19:34→04:29  ⟨по плану⟩ EBJ/EKEB → EDTB  (534мин)  ‹AEG403›
+   19:33→23:40  FKB/EDSB → ⟨по плану⟩ JKG/ESGJ  (247мин)  ‹AEG401›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -32,9 +31,9 @@ UR-CQD  [Vulkan Air]  An-26 B
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
-   05:15→08:25  NYO/ESKN → EBBW  (190мин)  ‹VKA152›
-   09:40→12:50  (на земле: 50.64,5.44) → ~VIT/LEVT [38км]  (189мин)  ‹VKA152›
+   01:12→08:00  ~VIT/LEVT [40км] → OMR/LROD  (408мин)  ‹VKA153›
+   19:58→23:19  OMR/LROD → ~TUN/DTTA [68км]  (201мин)  ‹VKA370›
 UR-CQZ  [Vulkan Air]  AN-26
-   12:16→15:21  QGY/LHPR → ~TUN/DTTA [23км]  (184мин)  ‹VKA108›
+   08:05→11:38  ~TUN/DTTA [59км] → MUC/EDDM  (212мин)  ‹VKA109›
 ────────────────────────────────────
-[sheets] Добавлена строка за 29.09.2026
+[sheets] Добавлена строка за 30.09.2026
