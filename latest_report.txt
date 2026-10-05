@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-10-03 UTC
+✈ Fleet Monitor  2026-10-04 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,16 +8,16 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   08:19→13:42  HAJ/EDDV → ~VLC/LEVC [30км]  (323мин)  ‹MTL338P›
-   19:33→21:24  ~LFDH [30км] → OST/EBOS  (110мин)  ‹MTL338C›
+   08:14→11:24  ~OST/EBOS [18км] → ~LEGT [10км]  (189мин)  ‹MTL339P›
+   15:32→18:26  ~LEMT [24км] → OST/EBOS  (174мин)  ‹MTL339C›
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   (-1д) 23:05→00:27  NUE/EDDN → WRO/EPWR  (82мин)  ‹SRN141›
+   — полёты не выполнял
 SP-KPK  [SprintAir]  340 A
    — полёты не выполнял
 ES-LSA  [Airest]  340 A
-   00:57→04:07  ⟨по плану⟩ MAD/LEMD → EDTB  (190мин)  ‹AEG472›
+   — полёты не выполнял
 ES-LSG  [Airest]  340 A
    — полёты не выполнял
 ────────────────────────────────────
@@ -28,8 +28,8 @@ UR-CQD  [Vulkan Air]  An-26 B
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
-   10:32→14:43  ~OZP/LEMO [19км] → (на земле: 51.20,2.87)  (251мин)  ‹VKA101›
+   — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   09:53→14:07  ~OZP/LEMO [19км] → EBZU  (253мин)  ‹VKA103›
+   — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 03.10.2026
+[sheets] Добавлена строка за 04.10.2026
