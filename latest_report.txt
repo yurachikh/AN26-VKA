@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-10-07 UTC
+✈ Fleet Monitor  2026-10-08 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,23 +8,24 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   14:31→18:44  BHX/EGBB → ~LHTL [24км]  (252мин)  ‹MTL343P›
-   22:31→23:06  ~LIPF [13км] → ~LIDV [13км]  (35мин)  ‹MTL343C›
+   01:27→01:48  ~MAH/LEMH [96км] → ~BCN/LEBL [44км]  (20мин)  ‹MTL343C›
+   15:35→18:36  BCN/LEBL → BRQ/LKTB  (180мин)  ‹MTL344P›
+   21:04→23:59  BRQ/LKTB → ~MPL/LFMT [85км]  (175мин)  ‹MTL344C›
 YL-RAL  [RAF Avia]  340 A
-   — полёты не выполнял
+   11:23→12:38  ~LDRO [53км] → ~LIDW [17км]  (74мин)  ‹TDR819›
 SP-KPR  [SprintAir]  340 A
-   00:58→04:03  QGY/LHPR → NYO/ESKN  (184мин)  ‹SRN121›
-   04:56→07:21  NYO/ESKN → WRO/EPWR  (145мин)  ‹SRN122›
-   19:00→21:58  WRO/EPWR → EBZU  (177мин)  ‹SRN125›
-   23:29→23:59  EBZU → ~RTM/EHRD [19км]  (30мин)  ‹SRN126›
+   (-1д) 23:29→01:53  EBZU → GOT/ESGG  (143мин)  ‹SRN126›
+   03:19→06:02  GOT/ESGG → BRQ/LKTB  (163мин)  ‹SRN127›
+   19:35→22:30  BRQ/LKTB → LYS/LFLL  (175мин)  ‹SRN130›
+   23:34→23:59  LYS/LFLL → ~LPY/LFHP [19км]  (25мин)  ‹SRN130›
 SP-KPK  [SprintAir]  340 A
-   05:29→06:40  CPH/EKCH → KRS/ENCN  (70мин)  ‹SRN3150›
-   17:51→19:00  KRS/ENCN → CPH/EKCH  (69мин)  ‹SRN3151›
+   05:24→06:33  CPH/EKCH → KRS/ENCN  (68мин)  ‹SRN3150›
+   17:46→18:43  KRS/ENCN → CPH/EKCH  (57мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
-   — полёты не выполнял
+   18:10→20:13  FKB/EDSB → ~PNA/LEPP [18км]  (122мин)  ‹AEG471›
 ES-LSG  [Airest]  340 A
-   (-1д) 19:56→04:27  FKB/EDSB → EDTB  (510мин)  ‹AEG401›
-   18:58→20:27  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (89мин)  ‹AEG431›
+   02:32→03:57  ⟨по плану⟩ BLQ/LIPE → EDTB  (85мин)  ‹AEG432›
+   19:32→23:59  EDTB → ⟨по плану⟩ JKG/ESGJ  (267мин)  ‹AEG401›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -33,9 +34,8 @@ UR-CQD  [Vulkan Air]  An-26 B
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
-   08:47→17:24  PFO/LCPH → SOF/LBSF  (516мин)  ‹VKA900›
+   06:01→10:21  SOF/LBSF → HHN/EDFH  (260мин)  ‹VKA901›
 UR-CQZ  [Vulkan Air]  AN-26
-   07:41→12:04  ~TTU/GMTN [25км] → LDPM  (262мин)  ‹VKA305›
-   13:48→14:49  ~PUY/LDPL [8км] → QGY/LHPR  (61мин)  ‹VKA305›
+   09:33→18:55  QGY/LHPR → BTS/LZIB  (562мин)  ‹VKA113›
 ────────────────────────────────────
-[sheets] Добавлена строка за 07.10.2026
+[sheets] Добавлена строка за 08.10.2026
