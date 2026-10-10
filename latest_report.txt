@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-10-08 UTC
+✈ Fleet Monitor  2026-10-09 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,24 +8,22 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   01:27→01:48  ~MAH/LEMH [96км] → ~BCN/LEBL [44км]  (20мин)  ‹MTL343C›
-   15:35→18:36  BCN/LEBL → BRQ/LKTB  (180мин)  ‹MTL344P›
-   21:04→23:59  BRQ/LKTB → ~MPL/LFMT [85км]  (175мин)  ‹MTL344C›
+   (-1д) 21:04→02:54  BRQ/LKTB → ~VLC/LEVC [33км]  (349мин)  ‹MTL344C›
 YL-RAL  [RAF Avia]  340 A
-   11:23→12:38  ~LDRO [53км] → ~LIDW [17км]  (74мин)  ‹TDR819›
+   12:30→12:43  ⟨по плану⟩ SPU/LDSP → ⟨по плану⟩ OSI/LDOS  (12мин)  ‹TDR818›
 SP-KPR  [SprintAir]  340 A
-   (-1д) 23:29→01:53  EBZU → GOT/ESGG  (143мин)  ‹SRN126›
-   03:19→06:02  GOT/ESGG → BRQ/LKTB  (163мин)  ‹SRN127›
-   19:35→22:30  BRQ/LKTB → LYS/LFLL  (175мин)  ‹SRN130›
-   23:34→23:59  LYS/LFLL → ~LPY/LFHP [19км]  (25мин)  ‹SRN130›
+   (-1д) 23:34→02:46  LYS/LFLL → ~TTU/GMTN [28км]  (192мин)  ‹SRN130›
+   16:30→19:29  ~LEHI [23км] → LYS/LFLL  (178мин)  ‹SRN131›
+   20:45→23:27  LYS/LFLL → WRO/EPWR  (161мин)  ‹SRN131›
 SP-KPK  [SprintAir]  340 A
-   05:24→06:33  CPH/EKCH → KRS/ENCN  (68мин)  ‹SRN3150›
-   17:46→18:43  KRS/ENCN → CPH/EKCH  (57мин)  ‹SRN3151›
+   05:23→06:34  CPH/EKCH → KRS/ENCN  (71мин)  ‹SRN3150›
+   18:01→19:11  KRS/ENCN → CPH/EKCH  (69мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
-   18:10→20:13  FKB/EDSB → ~PNA/LEPP [18км]  (122мин)  ‹AEG471›
+   01:44→04:00  ⟨по плану⟩ MAD/LEMD → EDTB  (135мин)  ‹AEG472›
+   18:24→20:49  FKB/EDSB → ~PNA/LEPP [11км]  (144мин)  ‹AEG471›
 ES-LSG  [Airest]  340 A
-   02:32→03:57  ⟨по плану⟩ BLQ/LIPE → EDTB  (85мин)  ‹AEG432›
-   19:32→23:59  EDTB → ⟨по плану⟩ JKG/ESGJ  (267мин)  ‹AEG401›
+   (-1д) 19:32→04:14  EDTB → EDTB  (522мин)  ‹AEG401›
+   19:00→20:25  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (85мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -34,8 +32,8 @@ UR-CQD  [Vulkan Air]  An-26 B
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
-   06:01→10:21  SOF/LBSF → HHN/EDFH  (260мин)  ‹VKA901›
+   — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   09:33→18:55  QGY/LHPR → BTS/LZIB  (562мин)  ‹VKA113›
+   — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 08.10.2026
+[sheets] Добавлена строка за 09.10.2026
