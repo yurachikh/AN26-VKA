@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-10-11 UTC
+✈ Fleet Monitor  2026-10-12 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,17 +8,18 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   13:11→20:07  ~AGP/LEMG [27км] → BHX/EGBB  (416мин)  ‹MTL334P›
+   08:26→10:21  BHX/EGBB → (в воздухе: 45.40,-2.94)  (114мин)  ‹MTL334C›
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
    — полёты не выполнял
 SP-KPK  [SprintAir]  340 A
-   — полёты не выполнял
+   03:45→05:03  CPH/EKCH → KRS/ENCN  (77мин)  ‹SRN3150›
+   17:54→18:57  KRS/ENCN → CPH/EKCH  (63мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   — полёты не выполнял
+   19:25→20:40  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (75мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -31,4 +32,4 @@ UR-CQV  [Vulkan Air]  An-26 B
 UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
 ────────────────────────────────────
-[sheets] Добавлена строка за 11.10.2026
+[sheets] Добавлена строка за 12.10.2026
