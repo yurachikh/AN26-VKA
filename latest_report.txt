@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-10-14 UTC
+✈ Fleet Monitor  2026-10-15 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,20 +8,23 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   09:36→12:36  ~LECU [22км] → EBZU  (180мин)  ‹MTL345C›
+   06:53→08:53  (на земле: 51.20,2.82) → ~LFDH [21км]  (119мин)  ‹MTL346P›
+   11:56→15:37  ~REU/LERS [23км] → ~LHKK [16км]  (220мин)  ‹MTL346C›
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   01:26→03:05  CGN/EDDK → WRO/EPWR  (99мин)  ‹SRN110›
-   18:35→20:01  WRO/EPWR → OMR/LROD  (86мин)  ‹SRN130›
+   00:19→02:54  OMR/LROD → NUE/EDDN  (154мин)  ‹SRN131›
+   03:59→06:12  NUE/EDDN → LBG/LFPB  (132мин)  ‹SRN131›
+   21:16→23:54  LBG/LFPB → WRO/EPWR  (158мин)  ‹SRN132›
 SP-KPK  [SprintAir]  340 A
-   05:24→06:49  CPH/EKCH → KRS/ENCN  (84мин)  ‹SRN3150›
-   17:49→18:50  KRS/ENCN → CPH/EKCH  (60мин)  ‹SRN3151›
+   05:25→06:43  CPH/EKCH → KRS/ENCN  (78мин)  ‹SRN3150›
+   18:12→19:23  KRS/ENCN → CPH/EKCH  (70мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
-   18:14→20:26  FKB/EDSB → ~LFIX [20км]  (131мин)  ‹AEG471›
+   01:40→04:00  ⟨по плану⟩ MAD/LEMD → EDTB  (140мин)  ‹AEG472›
+   18:13→20:37  FKB/EDSB → ~PNA/LEPP [16км]  (144мин)  ‹AEG471›
 ES-LSG  [Airest]  340 A
-   02:38→04:08  ⟨по плану⟩ BLQ/LIPE → EDTB  (89мин)  ‹AEG432›
-   19:07→20:22  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (75мин)  ‹AEG431›
+   02:41→04:17  ⟨по плану⟩ BLQ/LIPE → EDTB  (96мин)  ‹AEG432›
+   19:17→20:40  FKB/EDSB → BLQ/LIPE  (83мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -30,8 +33,9 @@ UR-CQD  [Vulkan Air]  An-26 B
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
-   10:44→14:51  ALF/ENAT → SVG/ENZV  (247мин)  ‹VKA181›
-UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
+UR-CQZ  [Vulkan Air]  AN-26
+   04:50→07:51  BTS/LZIB → IST/LTFM  (181мин)  ‹VKA190›
+   10:11→13:49  ~IST/LTFM [38км] → BTS/LZIB  (218мин)  ‹VKA191›
 ────────────────────────────────────
-[sheets] Добавлена строка за 14.10.2026
+[sheets] Добавлена строка за 15.10.2026
