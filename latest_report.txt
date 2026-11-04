@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-11-02 UTC
+✈ Fleet Monitor  2026-11-03 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -10,16 +10,17 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 YL-RAG  [RAF Avia]  340 A
    — полёты не выполнял
 YL-RAL  [RAF Avia]  340 A
-   09:03→13:25  ⟨по плану⟩ OSI/LDOS → ⟨по плану⟩ SPU/LDSP  (261мин)  ‹TDR815›
-SP-KPR  [SprintAir]  340 A
    — полёты не выполнял
+SP-KPR  [SprintAir]  340 A
+   18:32→23:59  WRO/EPWR → ~LOGP [27км]  (327мин)  ‹SRN110›
 SP-KPK  [SprintAir]  340 A
-   04:49→05:58  CPH/EKCH → KRS/ENCN  (69мин)  ‹SRN3150›
-   18:47→19:50  KRS/ENCN → CPH/EKCH  (63мин)  ‹SRN3151›
+   06:53→07:59  CPH/EKCH → KRS/ENCN  (66мин)  ‹SRN3150›
+   19:06→20:12  KRS/ENCN → CPH/EKCH  (65мин)  ‹SRN3151›
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   20:10→21:17  ⟨по плану⟩ FKB/EDSB → ⟨по плану⟩ BLQ/LIPE  (66мин)  ‹AEG431›
+   03:28→04:59  BLQ/LIPE → FKB/EDSB  (90мин)  ‹AEG432›
+   19:56→21:22  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (85мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
@@ -30,6 +31,7 @@ UR-CQE  [Vulkan Air]  Antonov An-26B
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   18:16→22:54  EBZU → ~TNG/GMTT [25км]  (277мин)  ‹VKA140›
+   00:55→02:22  ~TTU/GMTN [30км] → VLC/LEVC  (86мин)  ‹VKA141›
+   04:05→08:17  ~VLC/LEVC [19км] → BTS/LZIB  (252мин)  ‹VKA141›
 ────────────────────────────────────
-[sheets] Добавлена строка за 02.11.2026
+[sheets] Добавлена строка за 03.11.2026
