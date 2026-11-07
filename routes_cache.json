@@ -28,6 +28,30 @@
       "name": "Karlsruhe Baden-Baden Airport"
     }
   },
+  "AEG402": {
+    "destination": {
+      "alt_feet": 247.0,
+      "alt_meters": 75.29,
+      "countryiso2": "DK",
+      "iata": "BLL",
+      "icao": "EKBI",
+      "lat": 55.740299,
+      "location": "Billund",
+      "lon": 9.15178,
+      "name": "Billund Airport"
+    },
+    "origin": {
+      "alt_feet": 741.0,
+      "alt_meters": 225.86,
+      "countryiso2": "SE",
+      "iata": "JKG",
+      "icao": "ESGJ",
+      "lat": 57.757599,
+      "location": "Jönköping",
+      "lon": 14.0687,
+      "name": "Jönköping Airport"
+    }
+  },
   "AEG403": {
     "destination": {
       "alt_feet": 408.0,
