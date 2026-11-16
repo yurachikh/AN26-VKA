@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-11-14 UTC
+✈ Fleet Monitor  2026-11-15 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -18,7 +18,7 @@ SP-KPK  [SprintAir]  340 A
 ES-LSA  [Airest]  340 A
    — полёты не выполнял
 ES-LSG  [Airest]  340 A
-   03:37→05:05  ⟨по плану⟩ BLQ/LIPE → FKB/EDSB  (87мин)  ‹AEG432›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ AN-26
@@ -27,9 +27,9 @@ UR-CQD  [Vulkan Air]  An-26 B
 UR-CQE  [Vulkan Air]  Antonov An-26B
    — полёты не выполнял
 UR-CQV  [Vulkan Air]  An-26 B
-   08:42→09:44  MMX/ESMS → EBJ/EKEB  (61мин)  ‹VKA102›
+   15:08→16:18  EBJ/EKEB → SVG/ENZV  (69мин)  ‹VKA103›
+   17:35→21:55  SVG/ENZV → KEF/BIKF  (260мин)  ‹VKA103›
 UR-CQZ  [Vulkan Air]  AN-26
-   00:55→04:35  TNG/GMTT → GOA/LIMJ  (220мин)  ‹VKA301›
-   05:58→08:02  GOA/LIMJ → QGY/LHPR  (123мин)  ‹VKA301›
+   12:43→13:36  QGY/LHPR → ZAG/LDZA  (52мин)  ‹VKA508›
 ────────────────────────────────────
-[sheets] Добавлена строка за 14.11.2026
+[sheets] Добавлена строка за 15.11.2026
