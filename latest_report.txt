@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-11-16 UTC
+✈ Fleet Monitor  2026-11-17 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,32 +8,30 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   14:51→17:39  ~JKG/ESGJ [27км] → QGY/LHPR  (167мин)  ‹MTL358P›
-   18:57→23:14  QGY/LHPR → BHX/EGBB  (256мин)  ‹MTL358C›
+   23:01→23:59  BHX/EGBB → ~EHTX [20км]  (58мин)  ‹MTL360C›
 YL-RAL  [RAF Avia]  340 A
-   09:18→13:53  ⟨по плану⟩ SPU/LDSP → ⟨по плану⟩ OSI/LDOS  (275мин)  ‹TDR818›
+   09:06→10:15  ~LDZB [52км] → ~LSZ/LDLO [40км]  (69мин)  ‹TDR819›
+   15:22→15:33  ~RJK/LDRI [37км] → ~LDZB [36км]  (10мин)  ‹TDR820›
 SP-KPR  [SprintAir]  340 A
    — полёты не выполнял
 SP-KPK  [SprintAir]  340 A
-   05:08→07:15  CPH/EKCH → AES/ENAL  (127мин)  ‹SRN3272›
-   17:01→19:03  ⟨по плану⟩ AES/ENAL → CPH/EKCH  (121мин)  ‹SRN3273›
+   06:37→09:06  CPH/EKCH → AES/ENAL  (149мин)  ‹SRN3272›
+   17:08→19:14  AES/ENAL → CPH/EKCH  (126мин)  ‹SRN3273›
 ES-LSA  [Airest]  340 A
-   19:08→21:27  ~OST/EBOS [21км] → KTW/EPKT  (139мин)  ‹AEG224P›
-   23:07→23:59  ~KTW/EPKT [3км] → ~EDAE [31км]  (52мин)  ‹AEG224C›
+   (-1д) 23:07→02:20  ~KTW/EPKT [3км] → ~OST/EBOS [9км]  (192мин)  ‹AEG224C›
 ES-LSG  [Airest]  340 A
-   20:08→21:22  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (74мин)  ‹AEG431›
+   03:42→05:20  ⟨по плану⟩ BLQ/LIPE → EDTB  (98мин)  ‹AEG432›
+   20:20→21:34  ⟨по плану⟩ FKB/EDSB → ⟨по плану⟩ BLQ/LIPE  (74мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   — полёты не выполнял
+   19:37→23:59  PZY/LZPP → GRO/LEGE  (262мин)  ‹VKA110›
 UR-CQV  [Vulkan Air]  An-26 B
-   10:17→10:52  KEF/BIKF → (в воздухе: 63.61,-26.88)  (35мин)  ‹VKA103›
-   19:02→19:32  (в воздухе: 48.99,-52.32) → YYT/CYYT  (30мин)  ‹VKA103›
+   — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   09:18→13:10  ZAG/LDZA → HER/LGIR  (232мин)  ‹VKA509›
-   14:34→15:17  HER/LGIR → (в воздухе: 34.34,26.81)  (43мин)  ‹VKA509›
+   09:14→12:58  ~DMM/OEDF [24км] → ~DMM/OEDF [32км]  (223мин)  ‹VKA509›
 ────────────────────────────────────
-[sheets] Добавлена строка за 16.11.2026
+[sheets] Добавлена строка за 17.11.2026
