@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-11-24 UTC
+✈ Fleet Monitor  2026-11-25 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,32 +8,31 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   18:40→22:04  ARN/ESSA → LPL/EGGP  (204мин)  ‹MTL366P›
+   10:51→13:03  LPL/EGGP → BLL/EKBI  (132мин)  ‹MTL366C›
+   13:52→15:47  ~BLL/EKBI [14км] → ARN/ESSA  (115мин)  ‹MTL366C›
 YL-RAL  [RAF Avia]  340 A
    — полёты не выполнял
 SP-KPR  [SprintAir]  340 A
-   — полёты не выполнял
+   09:27→13:38  WRO/EPWR → TLS/LFBO  (251мин)  ‹SRN110›
+   14:47→17:46  TLS/LFBO → (на земле: 35.03,-5.87)  (179мин)  ‹SRN110›
 SP-KPK  [SprintAir]  340 A
-   06:54→08:53  CPH/EKCH → AES/ENAL  (118мин)  ‹SRN3272›
-   17:24→19:23  AES/ENAL → CPH/EKCH  (119мин)  ‹SRN3273›
+   06:39→08:43  CPH/EKCH → AES/ENAL  (124мин)  ‹SRN3272›
+   17:24→19:43  AES/ENAL → CPH/EKCH  (139мин)  ‹SRN3273›
 ES-LSA  [Airest]  340 A
-   11:05→12:04  ~CLJ/LRCL [26км] → QGY/LHPR  (58мин)  ‹AEG226P›
-   13:26→21:12  QGY/LHPR → ~AGP/LEMG [47км]  (465мин)  ‹AEG226C›
+   20:13→23:29  ~LETI [65км] → OST/EBOS  (196мин)  ‹AEG227C›
 ES-LSG  [Airest]  340 A
-   03:31→05:04  ⟨по плану⟩ BLQ/LIPE → FKB/EDSB  (93мин)  ‹AEG432›
-   20:25→21:42  ⟨по плану⟩ FKB/EDSB → BLQ/LIPE  (77мин)  ‹AEG431›
+   — полёты не выполнял
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   13:57→16:36  VBS/LIPO → SOF/LBSF  (158мин)  ‹VKA905›
-   19:09→21:19  SOF/LBSF → ~AOK/LGKP [65км]  (129мин)  ‹VKA905›
-UR-CQV  [Vulkan Air]  An-26 B
-   12:27→13:01  YYT/CYYT → (в воздухе: 49.44,-52.31)  (34мин)  ‹VKA102›
-   19:14→19:46  (в воздухе: 63.50,-26.75) → KEF/BIKF  (31мин)  ‹VKA102›
-UR-CQZ  [Vulkan Air]  AN-26
    — полёты не выполнял
+UR-CQV  [Vulkan Air]  An-26 B
+   — полёты не выполнял
+UR-CQZ  [Vulkan Air]  AN-26
+   04:31→10:47  (в воздухе: 33.41,27.42) → QGY/LHPR  (375мин)  ‹VKA13A›
+   23:28→23:59  QGY/LHPR → ~LJMS [4км]  (31мин)  ‹VKA131›
 ────────────────────────────────────
-[sheets] Добавлена строка за 24.11.2026
+[sheets] Добавлена строка за 25.11.2026
