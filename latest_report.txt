@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-11-25 UTC
+✈ Fleet Monitor  2026-11-26 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,31 +8,33 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   10:51→13:03  LPL/EGGP → BLL/EKBI  (132мин)  ‹MTL366C›
-   13:52→15:47  ~BLL/EKBI [14км] → ARN/ESSA  (115мин)  ‹MTL366C›
+   07:39→11:18  ARN/ESSA → BGY/LIME  (218мин)  ‹MTL362P›
+   13:24→16:22  ~BGY/LIME [6км] → MAD/LEMD  (178мин)  ‹MTL362C›
 YL-RAL  [RAF Avia]  340 A
-   — полёты не выполнял
+   08:29→08:39  ~LDZB [39км] → ~RJK/LDRI [27км]  (10мин)  ‹TDR819›
 SP-KPR  [SprintAir]  340 A
-   09:27→13:38  WRO/EPWR → TLS/LFBO  (251мин)  ‹SRN110›
-   14:47→17:46  TLS/LFBO → (на земле: 35.03,-5.87)  (179мин)  ‹SRN110›
+   07:23→11:13  (на земле: 34.18,-7.17) → TLS/LFBO  (229мин)  ‹SRN111›
+   12:32→14:26  TLS/LFBO → ~LFYM [4км]  (114мин)  ‹SRN111›
 SP-KPK  [SprintAir]  340 A
-   06:39→08:43  CPH/EKCH → AES/ENAL  (124мин)  ‹SRN3272›
-   17:24→19:43  AES/ENAL → CPH/EKCH  (139мин)  ‹SRN3273›
+   06:37→08:34  CPH/EKCH → AES/ENAL  (116мин)  ‹SRN3272›
+   17:10→19:33  AES/ENAL → CPH/EKCH  (142мин)  ‹SRN3273›
 ES-LSA  [Airest]  340 A
-   20:13→23:29  ~LETI [65км] → OST/EBOS  (196мин)  ‹AEG227C›
-ES-LSG  [Airest]  340 A
    — полёты не выполнял
+ES-LSG  [Airest]  340 A
+   17:24→18:39  ~BLQ/LIPE [6км] → FKB/EDSB  (75мин)  ‹AEG9006›
+   20:02→21:17  ⟨по плану⟩ FKB/EDSB → ⟨по плану⟩ BLQ/LIPE  (74мин)  ‹AEG431›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   — полёты не выполнял
+   04:34→06:10  ~DIA/OTBD [13км] → KWI/OKKK  (96мин)  ‹VKA906›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   04:31→10:47  (в воздухе: 33.41,27.42) → QGY/LHPR  (375мин)  ‹VKA13A›
-   23:28→23:59  QGY/LHPR → ~LJMS [4км]  (31мин)  ‹VKA131›
+   (-1д) 23:28→01:45  QGY/LHPR → GOA/LIMJ  (136мин)  ‹VKA131›
+   03:07→04:46  GOA/LIMJ → GRO/LEGE  (99мин)  ‹VKA131›
+   18:27→20:45  GRO/LEGE → ~TTU/GMTN [25км]  (138мин)  ‹VKA168›
 ────────────────────────────────────
-[sheets] Добавлена строка за 25.11.2026
+[sheets] Добавлена строка за 26.11.2026
