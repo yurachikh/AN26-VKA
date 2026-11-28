@@ -11,6 +11,7 @@
   "AEG226C": null,
   "AEG226P": null,
   "AEG227C": null,
+  "AEG227T": null,
   "AEG401": {
     "destination": {
       "alt_feet": 741.0,
@@ -344,6 +345,8 @@
   "MTL362P": null,
   "MTL366C": null,
   "MTL366P": null,
+  "MTL367C": null,
+  "MTL367P": null,
   "MTL371P": null,
   "MTL371R": null,
   "MTL372P": null,
@@ -843,6 +846,7 @@
   "VKA166": null,
   "VKA167": null,
   "VKA168": null,
+  "VKA169": null,
   "VKA170": null,
   "VKA171": null,
   "VKA172": null,

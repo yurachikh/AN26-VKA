@@ -1,4 +1,4 @@
-✈ Fleet Monitor  2026-11-26 UTC
+✈ Fleet Monitor  2026-11-27 UTC
 ────────────────────────────────────
 
 ▸ ATR-72
@@ -8,33 +8,31 @@ ES-NTC  [NyxAir]  ATR 72-500(F)
 
 ▸ Saab 340
 YL-RAG  [RAF Avia]  340 A
-   07:39→11:18  ARN/ESSA → BGY/LIME  (218мин)  ‹MTL362P›
-   13:24→16:22  ~BGY/LIME [6км] → MAD/LEMD  (178мин)  ‹MTL362C›
+   12:37→12:56  ~MAD/LEMD [4км] → ~LELT [35км]  (19мин)  ‹MTL367P›
+   16:38→21:02  ~LEMT [55км] → OST/EBOS  (263мин)  ‹MTL367C›
 YL-RAL  [RAF Avia]  340 A
-   08:29→08:39  ~LDZB [39км] → ~RJK/LDRI [27км]  (10мин)  ‹TDR819›
-SP-KPR  [SprintAir]  340 A
-   07:23→11:13  (на земле: 34.18,-7.17) → TLS/LFBO  (229мин)  ‹SRN111›
-   12:32→14:26  TLS/LFBO → ~LFYM [4км]  (114мин)  ‹SRN111›
-SP-KPK  [SprintAir]  340 A
-   06:37→08:34  CPH/EKCH → AES/ENAL  (116мин)  ‹SRN3272›
-   17:10→19:33  AES/ENAL → CPH/EKCH  (142мин)  ‹SRN3273›
-ES-LSA  [Airest]  340 A
    — полёты не выполнял
+SP-KPR  [SprintAir]  340 A
+   09:21→12:14  ~XCR/LFOK [10км] → WRO/EPWR  (173мин)  ‹SRN112›
+SP-KPK  [SprintAir]  340 A
+   06:40→08:37  CPH/EKCH → AES/ENAL  (117мин)  ‹SRN3272›
+   17:19→19:33  ⟨по плану⟩ AES/ENAL → CPH/EKCH  (133мин)  ‹SRN3273›
+ES-LSA  [Airest]  340 A
+   12:29→13:35  ~EBZU [15км] → FKB/EDSB  (66мин)  ‹AEG227T›
 ES-LSG  [Airest]  340 A
-   17:24→18:39  ~BLQ/LIPE [6км] → FKB/EDSB  (75мин)  ‹AEG9006›
-   20:02→21:17  ⟨по плану⟩ FKB/EDSB → ⟨по плану⟩ BLQ/LIPE  (74мин)  ‹AEG431›
+   11:15→12:40  ⟨по плану⟩ BLQ/LIPE → FKB/EDSB  (84мин)  ‹AEG432›
 ────────────────────────────────────
 
 ▸ AN-26
 UR-CQD  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQE  [Vulkan Air]  Antonov An-26B
-   04:34→06:10  ~DIA/OTBD [13км] → KWI/OKKK  (96мин)  ‹VKA906›
+   12:51→19:36  (в воздухе: 32.25,31.15) → BTS/LZIB  (404мин)  ‹VKA901›
+   20:51→23:59  BTS/LZIB → ~ENLI [82км]  (188мин)  ‹VKA901›
 UR-CQV  [Vulkan Air]  An-26 B
    — полёты не выполнял
 UR-CQZ  [Vulkan Air]  AN-26
-   (-1д) 23:28→01:45  QGY/LHPR → GOA/LIMJ  (136мин)  ‹VKA131›
-   03:07→04:46  GOA/LIMJ → GRO/LEGE  (99мин)  ‹VKA131›
-   18:27→20:45  GRO/LEGE → ~TTU/GMTN [25км]  (138мин)  ‹VKA168›
+   00:26→02:49  ~TNG/GMTT [40км] → ZAZ/LEZG  (143мин)  ‹VKA169›
+   17:05→17:33  ZAZ/LEZG → ~PNA/LEPP [25км]  (28мин)  ‹VKA170›
 ────────────────────────────────────
-[sheets] Добавлена строка за 26.11.2026
+[sheets] Добавлена строка за 27.11.2026
